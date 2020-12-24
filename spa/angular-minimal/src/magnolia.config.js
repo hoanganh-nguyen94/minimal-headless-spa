@@ -6,6 +6,7 @@ import { ListComponent } from './app/components/list/list.component';
 import { ParagraphComponent } from './app/components/paragraph/paragraph.component';
 import { ImageComponent } from './app/components/image/image.component';
 import { ExpanderComponent } from './app/components/expander/expander.component';
+import { TourListComponent } from "./app/components/tour-list/tour-list.component";
 
 export const config = {
     'componentMapping': {
@@ -17,7 +18,8 @@ export const config = {
       'spa-lm:components/listItem': ListItemComponent,
       'spa-lm:components/paragraph': ParagraphComponent,
       'spa-lm:components/image': ImageComponent,
-      'spa-lm:components/expander': ExpanderComponent
+      'spa-lm:components/expander': ExpanderComponent,
+      'spa-lm:components/tourList': TourListComponent
     }
   };
 

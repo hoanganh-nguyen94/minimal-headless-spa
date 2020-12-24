@@ -21,6 +21,7 @@ import { ExpanderComponent } from './components/expander/expander.component';
 import { MagnoliaModule } from '@magnolia/angular-editor';
 
 import { routing } from './app.routing';
+import { TourListComponent } from './components/tour-list/tour-list.component';
 
 @NgModule({
   imports: [BrowserModule, HttpClientModule, routing, MagnoliaModule],
@@ -37,6 +38,7 @@ import { routing } from './app.routing';
     ParagraphComponent,
     ExpanderComponent,
     NavigationComponent,
+    TourListComponent,
   ],
   entryComponents: [
     BasicComponent,
