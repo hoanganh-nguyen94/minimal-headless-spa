@@ -42,6 +42,7 @@ export class RootComponent {
     }
 
     this.http.get(`${environment.restUrlBase}${path}`).subscribe((content) => {
+      console.log(content);
       if (!this.inAuthor()) {
         this.content = content;
       } else {

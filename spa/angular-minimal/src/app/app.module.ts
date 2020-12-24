@@ -50,6 +50,7 @@ import { TourListComponent } from './components/tour-list/tour-list.component';
     ParagraphComponent,
     ExpanderComponent,
     NavigationComponent,
+    TourListComponent
   ],
   bootstrap: [AppComponent],
   providers: [{ provide: APP_BASE_HREF, useValue: getRouterBasename() }],

@@ -3306,3 +3306,324 @@ java.lang.NullPointerException: null
 2020-12-24 11:32:44,148 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint delivery/tours is registered with base path: [context]/delivery/tours
 2020-12-24 11:32:44,158 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint preview/tours is registered with base path: [context]/preview/tours
 2020-12-24 11:32:44,158 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/restEndpoints/delivery/tours.yaml]: [restEndpoint] definition [tours] with reference id: [delivery/tours] from module [spa-lm] at [delivery/tours]
+2020-12-24 11:34:32,049 INFO  info.magnolia.dirwatch.DirectoryWatcher           : Directory modified at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources]
+2020-12-24 11:34:34,049 INFO  info.magnolia.dirwatch.DirectoryWatcher           : File resource(s) deleted at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources/build]
+2020-12-24 11:34:58,059 INFO  info.magnolia.dirwatch.DirectoryWatcher           : Directory modified at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources]
+2020-12-24 11:35:00,061 INFO  info.magnolia.dirwatch.DirectoryWatcher           : Directory added at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources/build]
+2020-12-24 11:35:10,049 INFO  info.magnolia.dirwatch.DirectoryWatcher           : Directory modified at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources]
+2020-12-24 11:35:12,050 INFO  info.magnolia.dirwatch.DirectoryWatcher           : File resource(s) deleted at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources/build]
+2020-12-24 11:35:26,054 INFO  info.magnolia.dirwatch.DirectoryWatcher           : Directory modified at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources]
+2020-12-24 11:35:26,069 INFO  info.magnolia.dirwatch.DirectoryWatcher           : Directory added at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources/build]
+2020-12-24 11:35:38,426 WARN  info.magnolia.ui.framework.ioc.UiComponentProvider: Attempted to cache a UIComponent (PageDetailSubApp) instance in bean store containing another UIComponent (View)
+2020-12-24 11:39:34,341 WARN  info.magnolia.cms.filters.ContentTypeFilter       : Content type for http://localhost:8080/magnoliaAuthor/.magnolia/admincentral/PUSH?v-uiId=2&v-pushId=206e83ba-38ec-4eeb-8760-49518202bcef&X-Atmosphere-Transport=close&X-Atmosphere-tracking-id=a79a5285-a66a-40da-a6b4-96c6c2673cb1&_=1608784774333 is not set.
+2020-12-24 11:39:34,342 WARN  info.magnolia.cms.filters.ContentTypeFilter       : Response is not committed yet. Setting content type: text/html.
+2020-12-24 11:41:38,402 INFO  fo.magnolia.objectfactory.ObservedComponentFactory: Re-loaded info.magnolia.cms.beans.config.ServerConfiguration from node /server
+2020-12-24 11:41:38,508 INFO  info.magnolia.cms.filters.FilterManagerImpl       : Initializing filters
+2020-12-24 11:41:38,508 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [context]
+2020-12-24 11:41:38,509 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [contentType]
+2020-12-24 11:41:38,509 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [multipartRequest]
+2020-12-24 11:41:38,510 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [unicodeNormalization]
+2020-12-24 11:41:38,510 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [csrfTokenSecurity]
+2020-12-24 11:41:38,510 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [login]
+2020-12-24 11:41:38,510 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [publishing]
+2020-12-24 11:41:38,510 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [gzip]
+2020-12-24 11:41:38,510 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [channel]
+2020-12-24 11:41:38,510 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [siteMerge]
+2020-12-24 11:41:38,510 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [logout]
+2020-12-24 11:41:38,511 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [securityCallback]
+2020-12-24 11:41:38,511 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [csrfSecurity]
+2020-12-24 11:41:38,511 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [uriSecurity]
+2020-12-24 11:41:38,511 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [addCORSHeaders]
+2020-12-24 11:41:38,511 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [range]
+2020-12-24 11:41:38,511 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [i18n]
+2020-12-24 11:41:38,511 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [cache]
+2020-12-24 11:41:38,512 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [cors]
+2020-12-24 11:41:38,512 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [virtualURI]
+2020-12-24 11:41:38,512 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [servlets]
+2020-12-24 11:41:38,512 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for DamDownloadServlet servlet]
+2020-12-24 11:41:38,513 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for RestDispatcherServlet servlet]
+2020-12-24 11:41:38,581 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint delivery/tours is registered with base path: [context]/delivery/tours
+2020-12-24 11:41:38,595 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint preview/tours is registered with base path: [context]/preview/tours
+2020-12-24 11:41:38,598 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint delivery/pages_v1 is registered with base path: [context]/delivery/pages/v1
+2020-12-24 11:41:38,601 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint preview/pages_v1 is registered with base path: [context]/preview/pages/v1
+2020-12-24 11:41:38,665 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint delivery/pagenav_v1 is registered with base path: [context]/delivery/pagenav/v1
+2020-12-24 11:41:38,670 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint preview/pagenav_v1 is registered with base path: [context]/preview/pagenav/v1
+2020-12-24 11:41:38,670 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for ImagingServlet servlet]
+2020-12-24 11:41:38,671 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for ResourcesServlet servlet]
+2020-12-24 11:41:38,671 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for Admincentral-m5 servlet]
+24-Dec-2020 11:41:38.671 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+24-Dec-2020 11:41:38.674 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+24-Dec-2020 11:41:38.730 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+24-Dec-2020 11:41:38.751 INFO [Thread-15] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+24-Dec-2020 11:41:38.752 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+24-Dec-2020 11:41:38.819 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+24-Dec-2020 11:41:38.820 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+24-Dec-2020 11:41:38.820 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+24-Dec-2020 11:41:38.820 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+24-Dec-2020 11:41:38.820 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+24-Dec-2020 11:41:38.820 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+24-Dec-2020 11:41:38.820 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+24-Dec-2020 11:41:38.821 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+24-Dec-2020 11:41:38.821 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+24-Dec-2020 11:41:38.822 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+24-Dec-2020 11:41:38.829 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+24-Dec-2020 11:41:38.830 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+24-Dec-2020 11:41:38.830 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+24-Dec-2020 11:41:38.830 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+24-Dec-2020 11:41:38.830 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.830 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.830 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.830 INFO [Thread-15] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+24-Dec-2020 11:41:38.830 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.831 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.831 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.831 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.831 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.842 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.842 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+24-Dec-2020 11:41:38.843 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+24-Dec-2020 11:41:38.844 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+24-Dec-2020 11:41:38.844 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+24-Dec-2020 11:41:38.844 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+24-Dec-2020 11:41:38.845 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+24-Dec-2020 11:41:38.845 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+24-Dec-2020 11:41:38.845 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+24-Dec-2020 11:41:38.845 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+24-Dec-2020 11:41:38.846 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+24-Dec-2020 11:41:38.846 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+24-Dec-2020 11:41:38.846 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+24-Dec-2020 11:41:38.846 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+24-Dec-2020 11:41:38.846 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+24-Dec-2020 11:41:38.846 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+24-Dec-2020 11:41:38.846 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.39 using javax.servlet/3.0
+24-Dec-2020 11:41:38.846 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin1 started.
+24-Dec-2020 11:41:38.847 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2020-12-24 11:41:38,849 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for Admincentral servlet]
+24-Dec-2020 11:41:38.850 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+24-Dec-2020 11:41:38.851 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+24-Dec-2020 11:41:38.873 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+24-Dec-2020 11:41:38.893 INFO [Thread-15] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+24-Dec-2020 11:41:38.895 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+24-Dec-2020 11:41:38.941 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+24-Dec-2020 11:41:38.942 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+24-Dec-2020 11:41:38.942 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+24-Dec-2020 11:41:38.943 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+24-Dec-2020 11:41:38.943 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+24-Dec-2020 11:41:38.943 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+24-Dec-2020 11:41:38.944 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+24-Dec-2020 11:41:38.945 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+24-Dec-2020 11:41:38.945 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+24-Dec-2020 11:41:38.946 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+24-Dec-2020 11:41:38.946 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+24-Dec-2020 11:41:38.946 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+24-Dec-2020 11:41:38.946 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+24-Dec-2020 11:41:38.946 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+24-Dec-2020 11:41:38.947 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.947 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.947 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.947 INFO [Thread-15] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+24-Dec-2020 11:41:38.947 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.947 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.947 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.947 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.947 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.947 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:38.947 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+24-Dec-2020 11:41:38.948 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+24-Dec-2020 11:41:38.948 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+24-Dec-2020 11:41:38.948 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+24-Dec-2020 11:41:38.948 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+24-Dec-2020 11:41:38.948 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+24-Dec-2020 11:41:38.948 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+24-Dec-2020 11:41:38.948 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+24-Dec-2020 11:41:38.948 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+24-Dec-2020 11:41:38.948 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+24-Dec-2020 11:41:38.948 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+24-Dec-2020 11:41:38.948 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+24-Dec-2020 11:41:38.949 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+24-Dec-2020 11:41:38.949 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+24-Dec-2020 11:41:38.949 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+24-Dec-2020 11:41:38.949 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.39 using javax.servlet/3.0
+24-Dec-2020 11:41:38.949 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin1 started.
+24-Dec-2020 11:41:38.949 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2020-12-24 11:41:38,951 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for VaadinStatic servlet]
+24-Dec-2020 11:41:38.952 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+24-Dec-2020 11:41:38.952 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+24-Dec-2020 11:41:38.976 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+24-Dec-2020 11:41:39.002 INFO [Thread-15] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+24-Dec-2020 11:41:39.004 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+24-Dec-2020 11:41:39.062 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+24-Dec-2020 11:41:39.062 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+24-Dec-2020 11:41:39.062 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+24-Dec-2020 11:41:39.062 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+24-Dec-2020 11:41:39.062 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+24-Dec-2020 11:41:39.062 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+24-Dec-2020 11:41:39.062 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:39.063 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:39.064 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:39.064 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:39.064 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+24-Dec-2020 11:41:39.064 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+24-Dec-2020 11:41:39.064 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+24-Dec-2020 11:41:39.064 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+24-Dec-2020 11:41:39.064 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+24-Dec-2020 11:41:39.064 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+24-Dec-2020 11:41:39.064 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+24-Dec-2020 11:41:39.064 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+24-Dec-2020 11:41:39.065 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+24-Dec-2020 11:41:39.065 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+24-Dec-2020 11:41:39.065 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+24-Dec-2020 11:41:39.065 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+24-Dec-2020 11:41:39.065 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+24-Dec-2020 11:41:39.065 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+24-Dec-2020 11:41:39.066 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+24-Dec-2020 11:41:39.066 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+24-Dec-2020 11:41:39.066 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.39 using javax.servlet/3.0
+24-Dec-2020 11:41:39.066 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin1 started.
+24-Dec-2020 11:41:39.067 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2020-12-24 11:41:39,068 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for FeedSyndicationServlet servlet]
+2020-12-24 11:41:39,069 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [cms]
+2020-12-24 11:41:39,069 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [repositoryMapping]
+2020-12-24 11:41:39,069 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [contentSecurity]
+2020-12-24 11:41:39,069 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [aggregator]
+2020-12-24 11:41:39,069 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [modelExecution]
+2020-12-24 11:41:39,069 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [rendering]
+2020-12-24 11:44:53,868 WARN  info.magnolia.ui.framework.ioc.UiComponentProvider: Attempted to cache a UIComponent (PageDetailSubApp) instance in bean store containing another UIComponent (View)
+2020-12-24 11:48:20,081 INFO  info.magnolia.dirwatch.DirectoryWatcher           : Directory modified at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources]
+2020-12-24 11:48:20,106 INFO  info.magnolia.dirwatch.DirectoryWatcher           : File resource(s) deleted at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources/build]
+2020-12-24 11:48:23,323 ERROR ndering.engine.ModeDependentRenderExceptionHandler: Error while rendering [/angular-minimal] with template [angular-minimal-lm:pages/basic] for URI [/angular-minimal/.html]:
+RenderException: Failed to render the spa script '/angular-minimal-lm/webresources/build/index.html'
+info.magnolia.rendering.engine.RenderException: Failed to render the spa script '/angular-minimal-lm/webresources/build/index.html'
+	at info.magnolia.rendering.spa.renderer.SpaRenderer.onRender(SpaRenderer.java:113) ~[magnolia-spa-rendering-6.2.4.jar:?]
+	at info.magnolia.rendering.renderer.AbstractRenderer.render(AbstractRenderer.java:166) ~[magnolia-rendering-6.2.5.jar:?]
+	at info.magnolia.rendering.engine.DefaultRenderingEngine.render(DefaultRenderingEngine.java:119) [magnolia-rendering-6.2.5.jar:?]
+	at info.magnolia.rendering.engine.DefaultRenderingEngine$$EnhancerByCGLIB$$e73b37fe.render(<generated>) [magnolia-rendering-6.2.5.jar:?]
+	at info.magnolia.rendering.engine.RenderingFilter.render(RenderingFilter.java:195) [magnolia-rendering-6.2.5.jar:?]
+	at info.magnolia.rendering.engine.RenderingFilter.handleTemplateRequest(RenderingFilter.java:140) [magnolia-rendering-6.2.5.jar:?]
+	at info.magnolia.rendering.engine.RenderingFilter.doFilter(RenderingFilter.java:94) [magnolia-rendering-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.rendering.model.ModelExecutionFilter.doFilter(ModelExecutionFilter.java:109) [magnolia-rendering-6.2.5.jar:?]
+	at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AggregatorFilter.doFilter(AggregatorFilter.java:133) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.security.BaseSecurityFilter.doFilter(BaseSecurityFilter.java:57) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.RepositoryMappingFilter.doFilter(RepositoryMappingFilter.java:122) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:65) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:74) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:65) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.virtualuri.VirtualUriFilter.doFilter(VirtualUriFilter.java:98) [magnolia-virtual-uri-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.module.cache.executor.Bypass.processCacheRequest(Bypass.java:58) [magnolia-cache-core-5.9.2.jar:?]
+	at info.magnolia.module.cache.executor.CompositeExecutor.processCacheRequest(CompositeExecutor.java:66) [magnolia-cache-core-5.9.2.jar:?]
+	at info.magnolia.module.cache.filter.CacheFilter.doFilter(CacheFilter.java:164) [magnolia-cache-core-5.9.2.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.i18n.I18nContentSupportFilter.doFilter(I18nContentSupportFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.RangeSupportFilter.doFilter(RangeSupportFilter.java:78) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.security.BaseSecurityFilter.doFilter(BaseSecurityFilter.java:57) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.security.SecurityCallbackFilter.doFilter(SecurityCallbackFilter.java:84) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.security.LogoutFilter.doFilter(LogoutFilter.java:94) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.module.site.filters.SiteMergeFilter.doFilter(SiteMergeFilter.java:119) [magnolia-site-1.4.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MultiChannelFilter.doFilter(MultiChannelFilter.java:83) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.module.cache.filter.GZipFilter.doFilter(GZipFilter.java:74) [magnolia-cache-core-5.9.2.jar:?]
+	at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.security.auth.login.LoginFilter.doFilter(LoginFilter.java:128) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.security.CsrfTokenSecurityFilter.doFilter(CsrfTokenSecurityFilter.java:107) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MultipartRequestFilter.doFilter(MultipartRequestFilter.java:151) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.ContentTypeFilter.doFilter(ContentTypeFilter.java:155) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.ContextFilter.doFilter(ContextFilter.java:128) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:65) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.SafeDestroyMgnlFilterWrapper.doFilter(SafeDestroyMgnlFilterWrapper.java:107) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterDispatcher.doDispatch(MgnlFilterDispatcher.java:67) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:110) [magnolia-core-6.2.5.jar:?]
+	at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:96) [magnolia-core-6.2.5.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [catalina.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [catalina.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [catalina.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [catalina.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.39]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690) [catalina.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [catalina.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [catalina.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-coyote.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-coyote.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-coyote.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.39]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_275]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_275]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.39]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+Caused by: info.magnolia.rendering.engine.RenderException: Failed to find the spa template script '/angular-minimal-lm/webresources/build/index.html'
+	at info.magnolia.rendering.spa.renderer.SpaRenderer.render(SpaRenderer.java:194) ~[magnolia-spa-rendering-6.2.4.jar:?]
+	at info.magnolia.rendering.spa.renderer.SpaRenderer.onRender(SpaRenderer.java:107) ~[magnolia-spa-rendering-6.2.4.jar:?]
+	... 112 more
+2020-12-24 11:48:44,077 INFO  info.magnolia.dirwatch.DirectoryWatcher           : Directory modified at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources]
+2020-12-24 11:48:46,078 INFO  info.magnolia.dirwatch.DirectoryWatcher           : Directory added at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources/build]
+2020-12-24 11:49:13,518 WARN  info.magnolia.ui.framework.ioc.UiComponentProvider: Attempted to cache a UIComponent (PageDetailSubApp) instance in bean store containing another UIComponent (View)
