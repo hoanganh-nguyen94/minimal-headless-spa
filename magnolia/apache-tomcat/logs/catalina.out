@@ -3040,3 +3040,188 @@ LayeredResource{path='/ui-framework-core/i18n/ui-framework_de.properties', layer
 LayeredResource{path='/ui-framework-core/i18n/ui-framework_en.properties', layeredResources=[ClasspathResource{origin=classpath,path=/ui-framework-core/i18n/ui-framework_en.properties,file}]}
 ------------------------------------
 2020-12-24 11:18:05,226 INFO  fo.magnolia.i18nsystem.DefaultMessageBundlesLoader: Starting monitoring of info.magnolia.resourceloader.layered.LayeredResourceOrigin@2ca6df73 to load translation files
+2020-12-24 11:19:06,914 INFO  fig.source.yaml.decoration.YamlDefinitionDecorator: Applied YAML file based decorator from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actions.undo.yaml] to definition provider [[mediaEditor] definition [image] with reference id: [ui-mediaeditor:image] from module [ui-mediaeditor] at [image]]
+2020-12-24 11:19:06,918 INFO  fig.source.yaml.decoration.YamlDefinitionDecorator: Applied YAML file based decorator from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actionbar.sections.operations.yaml] to definition provider [[mediaEditor] definition [image] with reference id: [ui-mediaeditor:image] from module [ui-mediaeditor] at [image]]
+2020-12-24 11:19:06,924 INFO  fig.source.yaml.decoration.YamlDefinitionDecorator: Applied YAML file based decorator from [/dam-app/decorations/ui-framework/fieldTypes/richText.yaml] to definition provider [[fieldType] definition [richText] with reference id: [richText] from module [ui-framework] at [richText]]
+2020-12-24 11:19:48,669 INFO  fo.magnolia.objectfactory.ObservedComponentFactory: Re-loaded info.magnolia.cms.beans.config.ServerConfiguration from node /server
+2020-12-24 11:19:48,719 INFO  info.magnolia.cms.filters.FilterManagerImpl       : Initializing filters
+2020-12-24 11:19:48,720 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [context]
+2020-12-24 11:19:48,720 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [contentType]
+2020-12-24 11:19:48,720 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [multipartRequest]
+2020-12-24 11:19:48,720 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [unicodeNormalization]
+2020-12-24 11:19:48,721 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [csrfTokenSecurity]
+2020-12-24 11:19:48,721 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [login]
+2020-12-24 11:19:48,721 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [publishing]
+2020-12-24 11:19:48,721 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [gzip]
+2020-12-24 11:19:48,721 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [channel]
+2020-12-24 11:19:48,722 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [siteMerge]
+2020-12-24 11:19:48,722 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [logout]
+2020-12-24 11:19:48,722 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [securityCallback]
+2020-12-24 11:19:48,723 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [csrfSecurity]
+2020-12-24 11:19:48,723 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [uriSecurity]
+2020-12-24 11:19:48,723 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [addCORSHeaders]
+2020-12-24 11:19:48,723 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [range]
+2020-12-24 11:19:48,723 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [i18n]
+2020-12-24 11:19:48,723 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [cache]
+2020-12-24 11:19:48,725 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [cors]
+2020-12-24 11:19:48,726 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [virtualURI]
+2020-12-24 11:19:48,726 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [servlets]
+2020-12-24 11:19:48,726 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for DamDownloadServlet servlet]
+2020-12-24 11:19:48,727 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for RestDispatcherServlet servlet]
+2020-12-24 11:19:48,778 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint delivery/pages_v1 is registered with base path: [context]/delivery/pages/v1
+2020-12-24 11:19:48,784 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint preview/pages_v1 is registered with base path: [context]/preview/pages/v1
+2020-12-24 11:19:48,816 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint delivery/pagenav_v1 is registered with base path: [context]/delivery/pagenav/v1
+2020-12-24 11:19:48,821 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint preview/pagenav_v1 is registered with base path: [context]/preview/pagenav/v1
+2020-12-24 11:19:48,821 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for ImagingServlet servlet]
+2020-12-24 11:19:48,822 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for ResourcesServlet servlet]
+2020-12-24 11:19:48,822 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for Admincentral-m5 servlet]
+24-Dec-2020 11:19:48.823 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+24-Dec-2020 11:19:48.823 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+24-Dec-2020 11:19:48.868 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+24-Dec-2020 11:19:48.894 INFO [Thread-15] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+24-Dec-2020 11:19:48.895 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+24-Dec-2020 11:19:48.949 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+24-Dec-2020 11:19:48.949 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+24-Dec-2020 11:19:48.950 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+24-Dec-2020 11:19:48.950 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+24-Dec-2020 11:19:48.951 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+24-Dec-2020 11:19:48.951 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+24-Dec-2020 11:19:48.952 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+24-Dec-2020 11:19:48.952 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+24-Dec-2020 11:19:48.952 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+24-Dec-2020 11:19:48.952 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+24-Dec-2020 11:19:48.953 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+24-Dec-2020 11:19:48.953 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+24-Dec-2020 11:19:48.953 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+24-Dec-2020 11:19:48.953 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+24-Dec-2020 11:19:48.953 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:48.953 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:48.954 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:48.954 INFO [Thread-15] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+24-Dec-2020 11:19:48.954 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:48.954 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:48.954 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:48.954 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:48.954 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:48.954 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:48.956 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+24-Dec-2020 11:19:48.956 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+24-Dec-2020 11:19:48.957 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+24-Dec-2020 11:19:48.957 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+24-Dec-2020 11:19:48.957 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+24-Dec-2020 11:19:48.957 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+24-Dec-2020 11:19:48.957 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+24-Dec-2020 11:19:48.957 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+24-Dec-2020 11:19:48.957 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+24-Dec-2020 11:19:48.957 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+24-Dec-2020 11:19:48.957 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+24-Dec-2020 11:19:48.958 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+24-Dec-2020 11:19:48.960 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+24-Dec-2020 11:19:48.960 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+24-Dec-2020 11:19:48.960 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+24-Dec-2020 11:19:48.960 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.39 using javax.servlet/3.0
+24-Dec-2020 11:19:48.961 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin1 started.
+24-Dec-2020 11:19:48.961 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2020-12-24 11:19:48,972 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for Admincentral servlet]
+24-Dec-2020 11:19:48.972 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+24-Dec-2020 11:19:48.973 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+24-Dec-2020 11:19:49.015 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+24-Dec-2020 11:19:49.029 INFO [Thread-15] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+24-Dec-2020 11:19:49.039 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+24-Dec-2020 11:19:49.124 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+24-Dec-2020 11:19:49.124 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+24-Dec-2020 11:19:49.124 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+24-Dec-2020 11:19:49.125 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+24-Dec-2020 11:19:49.125 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+24-Dec-2020 11:19:49.125 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+24-Dec-2020 11:19:49.125 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+24-Dec-2020 11:19:49.125 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+24-Dec-2020 11:19:49.125 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+24-Dec-2020 11:19:49.125 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+24-Dec-2020 11:19:49.126 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+24-Dec-2020 11:19:49.126 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+24-Dec-2020 11:19:49.126 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+24-Dec-2020 11:19:49.126 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+24-Dec-2020 11:19:49.126 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.126 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.126 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.126 INFO [Thread-15] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+24-Dec-2020 11:19:49.126 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.127 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.127 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.127 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.127 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.127 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.127 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+24-Dec-2020 11:19:49.127 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+24-Dec-2020 11:19:49.127 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+24-Dec-2020 11:19:49.127 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+24-Dec-2020 11:19:49.128 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+24-Dec-2020 11:19:49.128 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+24-Dec-2020 11:19:49.128 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+24-Dec-2020 11:19:49.128 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+24-Dec-2020 11:19:49.128 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+24-Dec-2020 11:19:49.128 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+24-Dec-2020 11:19:49.128 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+24-Dec-2020 11:19:49.128 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+24-Dec-2020 11:19:49.128 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+24-Dec-2020 11:19:49.128 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+24-Dec-2020 11:19:49.129 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+24-Dec-2020 11:19:49.129 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.39 using javax.servlet/3.0
+24-Dec-2020 11:19:49.129 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin1 started.
+24-Dec-2020 11:19:49.130 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2020-12-24 11:19:49,139 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for VaadinStatic servlet]
+24-Dec-2020 11:19:49.140 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+24-Dec-2020 11:19:49.140 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+24-Dec-2020 11:19:49.173 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+24-Dec-2020 11:19:49.194 INFO [Thread-15] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+24-Dec-2020 11:19:49.195 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+24-Dec-2020 11:19:49.275 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+24-Dec-2020 11:19:49.275 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+24-Dec-2020 11:19:49.275 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+24-Dec-2020 11:19:49.275 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+24-Dec-2020 11:19:49.276 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+24-Dec-2020 11:19:49.276 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+24-Dec-2020 11:19:49.276 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+24-Dec-2020 11:19:49.276 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+24-Dec-2020 11:19:49.276 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+24-Dec-2020 11:19:49.276 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+24-Dec-2020 11:19:49.276 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+24-Dec-2020 11:19:49.277 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+24-Dec-2020 11:19:49.277 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+24-Dec-2020 11:19:49.277 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+24-Dec-2020 11:19:49.277 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.277 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.278 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.278 INFO [Thread-15] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+24-Dec-2020 11:19:49.278 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.278 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.278 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.278 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.278 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.278 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+24-Dec-2020 11:19:49.278 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+24-Dec-2020 11:19:49.279 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+24-Dec-2020 11:19:49.279 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+24-Dec-2020 11:19:49.279 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+24-Dec-2020 11:19:49.279 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+24-Dec-2020 11:19:49.279 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+24-Dec-2020 11:19:49.280 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+24-Dec-2020 11:19:49.281 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+24-Dec-2020 11:19:49.281 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+24-Dec-2020 11:19:49.281 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+24-Dec-2020 11:19:49.282 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+24-Dec-2020 11:19:49.282 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+24-Dec-2020 11:19:49.282 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+24-Dec-2020 11:19:49.282 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+24-Dec-2020 11:19:49.282 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+24-Dec-2020 11:19:49.282 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.39 using javax.servlet/3.0
+24-Dec-2020 11:19:49.282 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin1 started.
+24-Dec-2020 11:19:49.283 INFO [Thread-15] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2020-12-24 11:19:49,285 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for FeedSyndicationServlet servlet]
+2020-12-24 11:19:49,286 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [cms]
+2020-12-24 11:19:49,286 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [repositoryMapping]
+2020-12-24 11:19:49,287 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [contentSecurity]
+2020-12-24 11:19:49,287 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [aggregator]
+2020-12-24 11:19:49,287 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [modelExecution]
+2020-12-24 11:19:49,287 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [rendering]

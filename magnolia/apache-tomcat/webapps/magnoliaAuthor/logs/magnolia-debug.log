@@ -2569,3 +2569,47 @@ LayeredResource{path='/ui-framework-core/i18n/ui-framework_de.properties', layer
 LayeredResource{path='/ui-framework-core/i18n/ui-framework_en.properties', layeredResources=[ClasspathResource{origin=classpath,path=/ui-framework-core/i18n/ui-framework_en.properties,file}]}
 ------------------------------------
 INFO  info.magnolia.i18nsystem.DefaultMessageBundlesLoader 24.12.2020 11:18:05 -- Starting monitoring of info.magnolia.resourceloader.layered.LayeredResourceOrigin@2ca6df73 to load translation files
+INFO  info.magnolia.config.source.yaml.decoration.YamlDefinitionDecorator 24.12.2020 11:19:06 -- Applied YAML file based decorator from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actions.undo.yaml] to definition provider [[mediaEditor] definition [image] with reference id: [ui-mediaeditor:image] from module [ui-mediaeditor] at [image]]
+INFO  info.magnolia.config.source.yaml.decoration.YamlDefinitionDecorator 24.12.2020 11:19:06 -- Applied YAML file based decorator from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actionbar.sections.operations.yaml] to definition provider [[mediaEditor] definition [image] with reference id: [ui-mediaeditor:image] from module [ui-mediaeditor] at [image]]
+INFO  info.magnolia.config.source.yaml.decoration.YamlDefinitionDecorator 24.12.2020 11:19:06 -- Applied YAML file based decorator from [/dam-app/decorations/ui-framework/fieldTypes/richText.yaml] to definition provider [[fieldType] definition [richText] with reference id: [richText] from module [ui-framework] at [richText]]
+INFO  info.magnolia.objectfactory.ObservedComponentFactory 24.12.2020 11:19:48 -- Re-loaded info.magnolia.cms.beans.config.ServerConfiguration from node /server
+INFO  info.magnolia.cms.filters.FilterManagerImpl 24.12.2020 11:19:48 -- Initializing filters
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [context]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [contentType]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [multipartRequest]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [unicodeNormalization]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [csrfTokenSecurity]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [login]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [publishing]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [gzip]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [channel]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [siteMerge]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [logout]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [securityCallback]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [csrfSecurity]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [uriSecurity]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [addCORSHeaders]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [range]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [i18n]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [cache]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [cors]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [virtualURI]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [servlets]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [Wrapper for DamDownloadServlet servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [Wrapper for RestDispatcherServlet servlet]
+INFO  info.magnolia.rest.RestDispatcherServlet 24.12.2020 11:19:48 -- Endpoint delivery/pages_v1 is registered with base path: [context]/delivery/pages/v1
+INFO  info.magnolia.rest.RestDispatcherServlet 24.12.2020 11:19:48 -- Endpoint preview/pages_v1 is registered with base path: [context]/preview/pages/v1
+INFO  info.magnolia.rest.RestDispatcherServlet 24.12.2020 11:19:48 -- Endpoint delivery/pagenav_v1 is registered with base path: [context]/delivery/pagenav/v1
+INFO  info.magnolia.rest.RestDispatcherServlet 24.12.2020 11:19:48 -- Endpoint preview/pagenav_v1 is registered with base path: [context]/preview/pagenav/v1
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [Wrapper for ImagingServlet servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [Wrapper for ResourcesServlet servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [Wrapper for Admincentral-m5 servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:48 -- Initializing filter [Wrapper for Admincentral servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:49 -- Initializing filter [Wrapper for VaadinStatic servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:49 -- Initializing filter [Wrapper for FeedSyndicationServlet servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:49 -- Initializing filter [cms]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:49 -- Initializing filter [repositoryMapping]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:49 -- Initializing filter [contentSecurity]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:49 -- Initializing filter [aggregator]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:49 -- Initializing filter [modelExecution]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:49 -- Initializing filter [rendering]
