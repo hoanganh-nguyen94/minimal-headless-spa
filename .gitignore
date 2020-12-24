@@ -8,7 +8,6 @@ downloads
 /**/target
 *.jar
 *.log*
-*.tmp
 *.lock
 /**/webapp/file
 /**/.classpath
