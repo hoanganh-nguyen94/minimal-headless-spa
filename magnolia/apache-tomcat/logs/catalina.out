@@ -3225,3 +3225,5 @@ LayeredResource{path='/ui-framework-core/i18n/ui-framework_en.properties', layer
 2020-12-24 11:19:49,287 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [aggregator]
 2020-12-24 11:19:49,287 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [modelExecution]
 2020-12-24 11:19:49,287 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [rendering]
+2020-12-24 11:21:12,024 INFO  info.magnolia.dirwatch.DirectoryWatcher           : Directory modified at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm]
+2020-12-24 11:21:12,188 INFO  info.magnolia.dirwatch.DirectoryWatcher           : Directory added at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources]

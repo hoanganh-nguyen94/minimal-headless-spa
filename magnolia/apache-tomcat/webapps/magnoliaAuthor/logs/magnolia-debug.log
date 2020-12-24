@@ -2613,3 +2613,5 @@ INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:49 -- Initializ
 INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:49 -- Initializing filter [aggregator]
 INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:49 -- Initializing filter [modelExecution]
 INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:19:49 -- Initializing filter [rendering]
+INFO  info.magnolia.dirwatch.DirectoryWatcher 24.12.2020 11:21:12 -- Directory modified at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm]
+INFO  info.magnolia.dirwatch.DirectoryWatcher 24.12.2020 11:21:12 -- Directory added at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/angular-minimal-lm/webresources]
