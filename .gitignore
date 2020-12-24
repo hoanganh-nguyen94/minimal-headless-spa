@@ -1,4 +1,5 @@
 RETIRE
+#apache-tomcat
 downloads
 
 /**/webresources/build/
@@ -7,7 +8,8 @@ downloads
 
 /**/target
 *.jar
-*.log*
+#*.log*
+#*.tmp
 *.lock
 /**/webapp/file
 /**/.classpath
@@ -15,7 +17,7 @@ downloads
 /**/.settings
 /**/node_modules
 /**/.DS_Store
-/**/repositories
+#/**/repositories
 /**/magnolia-activation-keypair.properties
 /**/.idea
 *.iml

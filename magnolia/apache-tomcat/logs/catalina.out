@@ -1,0 +1,618 @@
+24-Dec-2020 11:07:15.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+24-Dec-2020 11:07:15.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+24-Dec-2020 11:07:15.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+24-Dec-2020 11:07:15.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Dec-2020 11:07:15.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+24-Dec-2020 11:07:15.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+24-Dec-2020 11:07:15.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre
+24-Dec-2020 11:07:15.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_275-b01
+24-Dec-2020 11:07:15.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+24-Dec-2020 11:07:15.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat
+24-Dec-2020 11:07:15.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat
+24-Dec-2020 11:07:15.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/conf/logging.properties
+24-Dec-2020 11:07:15.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Dec-2020 11:07:15.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Dec-2020 11:07:15.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Dec-2020 11:07:15.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Dec-2020 11:07:15.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms64M
+24-Dec-2020 11:07:15.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048M
+24-Dec-2020 11:07:15.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+24-Dec-2020 11:07:15.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Dec-2020 11:07:15.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat
+24-Dec-2020 11:07:15.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat
+24-Dec-2020 11:07:15.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/temp
+24-Dec-2020 11:07:15.612 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/hcg/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Dec-2020 11:07:16.099 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Dec-2020 11:07:16.167 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [924] milliseconds
+24-Dec-2020 11:07:16.241 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Dec-2020 11:07:16.242 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+24-Dec-2020 11:07:16.259 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor]
+Initializing Log4J
+2020-12-24 11:07:33,902 INFO  info.magnolia.init.MagnoliaServletContextListener : Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][EnvironmentPropertySource][ServletContextPropertySource from WEB-INF/config/magnoliaAuthor/magnolia.properties][ServletContextPropertySource from WEB-INF/config/magnoliaAuthor/magnolia.properties][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, periscope-api, spa-lm, speech-recognizer, categorization-support, ce-product-descriptor, imaging-support, publishing-core, resource-loader, rest-integration, config, i18n, publishing-receiver, publishing-sender, rest-services, cache, content-types, periscope-core, rendering, ui-framework-core, virtual-uri, dam-jcr, ehcache3, imaging, tasks-app, templating, ui-framework-jcr, resources, ui-framework, magnolia-resources-templating, scheduler, site, ui-admincentral, ui-mediaeditor, cache-app, dam-imaging, dam-templating, definitions-app, groovy, jcr-browser, log-tools, magnolia-usage-metrics, messages-app, mte-imaging, pages-app, password-manager, publishing-app, resources-app, security-app, spa-rendering, task-management, ui-contentapp, about-app, admincentral, content-importer, dam-app, jcr-tools, mail, rest-client, rest-content-delivery, site-app, cache-browser-app, dam-app-core, form, mte, rest-client-app, dam-app-jcr, javascript-models, mtk, rssaggregator, categorization, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-hr, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+---------------------------------------------
+MAGNOLIA LICENSE
+---------------------------------------------
+Version number : 6.2.5
+Core version   : 6.2.5
+Build          : 27. November 2020 (rev. 4e763eac281f881b4889cb0e8c779bfc82d8241c of UNKNOWN)
+Edition        : Community Edition
+Provider       : Magnolia International Ltd. (info@magnolia-cms.com)
+2020-12-24 11:07:33,931 INFO  info.magnolia.cms.beans.config.ConfigLoader       : Initializing content repositories
+2020-12-24 11:07:33,931 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading JCR
+2020-12-24 11:07:33,947 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading JCR magnolia
+2020-12-24 11:07:34,035 INFO  info.magnolia.jackrabbit.ProviderImpl             : Loading repository at /Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/repositories/magnolia (config file: /Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+2020-12-24 11:07:38,067 INFO  info.magnolia.jackrabbit.ProviderImpl             : Registering prefix [mgnl] with URI http://www.magnolia.info/jcr/mgnl
+2020-12-24 11:07:40,043 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+2020-12-24 11:07:40,049 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading workspace default (logical name default).
+2020-12-24 11:07:40,054 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+2020-12-24 11:07:49,609 INFO  info.magnolia.context.LifeTimeJCRSessionUtil      : Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+2020-12-24 11:07:49,825 INFO  fo.magnolia.objectfactory.ObservedComponentFactory: /server/auditLogging does not exist, will return a new instance of class info.magnolia.audit.AuditLoggingManager.
+2020-12-24 11:07:49,844 INFO  fo.magnolia.objectfactory.ObservedComponentFactory: /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+2020-12-24 11:07:50,653 INFO  info.magnolia.module.webapp.WebappVersionHandler  : Content was not found in the repository, will bootstrap web-app.
+2020-12-24 11:07:50,657 INFO  info.magnolia.module.ui.ModuleManagerNullUI       : 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, and the magnolia.update.auto property is set to true,      *
+* so they will be applied automatically now.                                                            *
+*                                                                                                       *
+*********************************************************************************************************
+2020-12-24 11:07:50,661 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading workspace resources (logical name resources).
+2020-12-24 11:07:50,819 INFO  info.magnolia.jackrabbit.ProviderImpl             : Custom node types registered using /mgnl-nodetypes/magnolia-dam-nodetypes.cnd
+2020-12-24 11:07:50,912 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading workspace dam (logical name dam).
+2020-12-24 11:07:51,051 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading workspace imaging (logical name imaging).
+2020-12-24 11:07:51,162 INFO  info.magnolia.jackrabbit.ProviderImpl             : Custom node types registered using /mgnl-nodetypes/magnolia-message-nodetypes.cnd
+2020-12-24 11:07:51,182 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading workspace messages (logical name messages).
+2020-12-24 11:07:51,326 INFO  info.magnolia.jackrabbit.ProviderImpl             : Custom node types registered using /mgnl-nodetypes/magnolia-favorite-nodetypes.cnd
+2020-12-24 11:07:51,359 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading workspace profiles (logical name profiles).
+2020-12-24 11:07:51,515 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading workspace scripts (logical name scripts).
+2020-12-24 11:07:51,674 INFO  info.magnolia.jackrabbit.ProviderImpl             : Custom node types registered using /mgnl-nodetypes/magnolia-keystore-nodetypes.xml
+2020-12-24 11:07:51,686 INFO  info.magnolia.jackrabbit.ProviderImpl             : Registering nodetype {http://www.magnolia.info/jcr/mgnl}password on repository magnolia
+2020-12-24 11:07:51,714 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading workspace keystore (logical name keystore).
+2020-12-24 11:07:51,851 INFO  info.magnolia.jackrabbit.ProviderImpl             : Custom node types registered using /mgnl-nodetypes/tasks-nodetypes.xml
+2020-12-24 11:07:51,852 INFO  info.magnolia.jackrabbit.ProviderImpl             : Registering nodetype {http://www.magnolia.info/jcr/mgnl}task on repository magnolia
+2020-12-24 11:07:51,872 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading workspace tasks (logical name tasks).
+2020-12-24 11:07:52,019 INFO  info.magnolia.jackrabbit.ProviderImpl             : Custom node types registered using /mgnl-nodetypes/magnolia-rssaggregator-nodetypes.xml
+2020-12-24 11:07:52,022 INFO  info.magnolia.jackrabbit.ProviderImpl             : Registering nodetype {http://www.magnolia.info/jcr/mgnl}rssAggregator on repository magnolia
+2020-12-24 11:07:52,044 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading workspace rss (logical name rss).
+2020-12-24 11:07:52,226 INFO  info.magnolia.jackrabbit.ProviderImpl             : Custom node types registered using /mgnl-nodetypes/magnolia-category-nodetypes.cnd
+2020-12-24 11:07:52,250 INFO  info.magnolia.repository.DefaultRepositoryManager : Loading workspace category (logical name category).
+2020-12-24 11:07:53,181 WARN  info.magnolia.module.InstallContextImpl           : [13/678 tasks - Magnolia Core Module (version 6.2.5)]> Please set the config:/server/defaultBaseUrl property to a full URL to be used when generating absolute URLs for external systems.
+2020-12-24 11:07:53,530 INFO  fo.magnolia.objectfactory.ObservedComponentFactory: Re-loaded info.magnolia.cms.security.SecuritySupport from node /server/security
+2020-12-24 11:07:53,944 INFO  fo.magnolia.objectfactory.ObservedComponentFactory: Re-loaded info.magnolia.cms.security.SecuritySupport from node /server/security
+2020-12-24 11:07:54,469 INFO  fo.magnolia.objectfactory.ObservedComponentFactory: Re-loaded info.magnolia.audit.AuditLoggingManager from node /server/auditLogging
+2020-12-24 11:07:55,071 INFO  fo.magnolia.objectfactory.ObservedComponentFactory: Re-loaded info.magnolia.freemarker.FreemarkerConfig from node /server/rendering/freemarker
+2020-12-24 11:07:59,716 WARN  info.magnolia.importexport.BootstrapUtil          : Deleted already existing node for bootstrapping: /modules/rendering/renderers/freemarker/contextAttributes
+2020-12-24 11:08:00,233 WARN  info.magnolia.importexport.BootstrapUtil          : Deleted already existing node for bootstrapping: /server/filters/virtualURI
+2020-12-24 11:08:02,633 INFO  fo.magnolia.objectfactory.ObservedComponentFactory: Re-loaded info.magnolia.freemarker.FreemarkerConfig from node /server/rendering/freemarker
+2020-12-24 11:08:03,557 WARN  info.magnolia.importexport.BootstrapUtil          : Deleted already existing node for bootstrapping: /server/filters/uriSecurity/bypasses/login
+2020-12-24 11:08:03,622 WARN  info.magnolia.importexport.BootstrapUtil          : Deleted already existing node for bootstrapping: /modules/ui-admincentral/commands/default/delete
+2020-12-24 11:08:03,764 WARN  info.magnolia.importexport.BootstrapUtil          : Deleted already existing node for bootstrapping: /server/filters/securityCallback/clientCallbacks/form
+2020-12-24 11:08:03,955 WARN  info.magnolia.importexport.BootstrapUtil          : Deleted already existing node for bootstrapping: /modules/ui-admincentral/messageViews/longRunning
+2020-12-24 11:08:09,150 WARN  info.magnolia.importexport.BootstrapUtil          : Deleted already existing node for bootstrapping: /modules/ui-admincentral/apps/configuration/subApps/browser/actions/saveItemProperty
+2020-12-24 11:08:10,527 WARN  ia.ui.admincentral.setup.AppLauncherReorderingTask: Not reordering the assets app in the edit group because the relative app pages does not exist.
+2020-12-24 11:08:12,763 WARN  info.magnolia.importexport.BootstrapUtil          : Deleted already existing node for bootstrapping: /modules/ui-admincentral/config/appLauncherLayout/groups/edit/apps/dam
+2020-12-24 11:08:15,271 INFO  fo.magnolia.objectfactory.ObservedComponentFactory: Re-loaded info.magnolia.freemarker.FreemarkerConfig from node /server/rendering/freemarker
+2020-12-24 11:08:15,862 WARN  info.magnolia.importexport.BootstrapUtil          : Deleted already existing node for bootstrapping: /modules/rssaggregator/config/feedGenerators/category
+2020-12-24 11:08:21,159 INFO  info.magnolia.importexport.Bootstrapper           : Trying to initialize repositories from: 
+    /Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/WEB-INF/bootstrap/author
+    /Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/WEB-INF/bootstrap/common
+2020-12-24 11:08:21,162 INFO  info.magnolia.importexport.Bootstrapper           : Trying to import content from 47 files into repository [dam]
+2020-12-24 11:08:23,371 INFO  info.magnolia.importexport.Bootstrapper           : Repository [dam] has been initialized.
+2020-12-24 11:08:23,373 INFO  info.magnolia.importexport.Bootstrapper           : Repository [keystore] has been initialized.
+2020-12-24 11:08:23,374 INFO  info.magnolia.importexport.Bootstrapper           : Repository [usergroups] has been initialized.
+2020-12-24 11:08:23,375 INFO  info.magnolia.importexport.Bootstrapper           : Repository [magnolia-mgnlSystem] has been initialized.
+2020-12-24 11:08:23,377 INFO  info.magnolia.importexport.Bootstrapper           : Repository [scripts] has been initialized.
+2020-12-24 11:08:23,378 INFO  info.magnolia.importexport.Bootstrapper           : Repository [website] has been initialized.
+2020-12-24 11:08:23,380 INFO  info.magnolia.importexport.Bootstrapper           : Repository [magnolia-mgnlVersion] has been initialized.
+2020-12-24 11:08:23,381 INFO  info.magnolia.importexport.Bootstrapper           : Repository [userroles] has been initialized.
+2020-12-24 11:08:23,382 INFO  info.magnolia.importexport.Bootstrapper           : Repository [profiles] has been initialized.
+2020-12-24 11:08:23,383 INFO  info.magnolia.importexport.Bootstrapper           : Repository [users] has been initialized.
+2020-12-24 11:08:23,384 INFO  info.magnolia.importexport.Bootstrapper           : Repository [tasks] has been initialized.
+2020-12-24 11:08:23,385 INFO  info.magnolia.importexport.Bootstrapper           : Repository [imaging] has been initialized.
+2020-12-24 11:08:23,386 INFO  info.magnolia.importexport.Bootstrapper           : Trying to import content from 1 files into repository [category]
+2020-12-24 11:08:23,433 INFO  info.magnolia.importexport.Bootstrapper           : Repository [category] has been initialized.
+2020-12-24 11:08:23,435 INFO  info.magnolia.importexport.Bootstrapper           : Repository [rss] has been initialized.
+2020-12-24 11:08:23,436 INFO  info.magnolia.importexport.Bootstrapper           : Repository [default] has been initialized.
+2020-12-24 11:08:23,437 INFO  info.magnolia.importexport.Bootstrapper           : Repository [resources] has been initialized.
+2020-12-24 11:08:23,439 INFO  info.magnolia.importexport.Bootstrapper           : Repository [messages] has been initialized.
+2020-12-24 11:08:23,440 INFO  info.magnolia.importexport.Bootstrapper           : Trying to import content from 3 files into repository [config]
+2020-12-24 11:08:23,452 INFO  info.magnolia.importexport.Bootstrapper           : Repository [config] has been initialized.
+2020-12-24 11:08:23,812 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module core
+2020-12-24 11:08:23,814 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module dam
+2020-12-24 11:08:23,815 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module freemarker-support
+2020-12-24 11:08:23,815 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module periscope-api
+2020-12-24 11:08:23,815 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module spa-lm
+2020-12-24 11:08:23,816 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module speech-recognizer
+2020-12-24 11:08:23,816 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module categorization-support
+2020-12-24 11:08:23,816 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module ce-product-descriptor
+2020-12-24 11:08:23,816 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module imaging-support
+2020-12-24 11:08:23,816 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module publishing-core
+2020-12-24 11:08:23,817 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module resource-loader
+2020-12-24 11:08:23,817 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module rest-integration
+2020-12-24 11:08:23,820 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module config
+2020-12-24 11:08:23,821 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module i18n
+2020-12-24 11:08:23,822 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module publishing-receiver
+2020-12-24 11:08:23,822 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module publishing-sender
+2020-12-24 11:08:23,822 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module rest-services
+2020-12-24 11:08:23,823 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module cache
+2020-12-24 11:08:23,831 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module content-types
+2020-12-24 11:08:23,831 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module periscope-core
+2020-12-24 11:08:23,834 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module rendering
+2020-12-24 11:08:23,834 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module ui-framework-core
+2020-12-24 11:08:23,835 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module virtual-uri
+2020-12-24 11:08:23,835 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module dam-jcr
+2020-12-24 11:08:23,836 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module ehcache3
+2020-12-24 11:08:23,836 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module imaging
+2020-12-24 11:08:23,836 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module tasks-app
+2020-12-24 11:08:23,837 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module templating
+2020-12-24 11:08:23,837 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module ui-framework-jcr
+2020-12-24 11:08:23,837 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module resources
+2020-12-24 11:08:23,840 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module ui-framework
+2020-12-24 11:08:23,842 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module magnolia-resources-templating
+2020-12-24 11:08:23,842 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module scheduler
+2020-12-24 11:08:23,846 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module site
+2020-12-24 11:08:23,848 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module ui-admincentral
+2020-12-24 11:08:23,848 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module ui-mediaeditor
+2020-12-24 11:08:23,850 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module cache-app
+2020-12-24 11:08:23,850 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module dam-imaging
+2020-12-24 11:08:23,850 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module dam-templating
+2020-12-24 11:08:23,850 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module definitions-app
+2020-12-24 11:08:23,850 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module groovy
+2020-12-24 11:08:23,851 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module jcr-browser
+2020-12-24 11:08:23,851 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module log-tools
+2020-12-24 11:08:23,851 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module magnolia-usage-metrics
+2020-12-24 11:08:23,852 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module messages-app
+2020-12-24 11:08:23,852 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module mte-imaging
+2020-12-24 11:08:23,852 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module pages-app
+2020-12-24 11:08:23,852 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module password-manager
+2020-12-24 11:08:23,853 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module publishing-app
+2020-12-24 11:08:23,854 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module resources-app
+2020-12-24 11:08:23,854 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module security-app
+2020-12-24 11:08:23,854 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module spa-rendering
+2020-12-24 11:08:23,854 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module task-management
+2020-12-24 11:08:23,856 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module ui-contentapp
+2020-12-24 11:08:23,858 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module about-app
+2020-12-24 11:08:23,858 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module admincentral
+2020-12-24 11:08:23,860 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module content-importer
+2020-12-24 11:08:23,866 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module dam-app
+2020-12-24 11:08:23,868 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module jcr-tools
+2020-12-24 11:08:23,868 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module mail
+2020-12-24 11:08:23,875 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module rest-client
+2020-12-24 11:08:23,878 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module rest-content-delivery
+2020-12-24 11:08:23,878 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module site-app
+2020-12-24 11:08:23,878 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module cache-browser-app
+2020-12-24 11:08:23,879 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module dam-app-core
+2020-12-24 11:08:23,879 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module form
+2020-12-24 11:08:23,881 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module mte
+2020-12-24 11:08:23,881 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module rest-client-app
+2020-12-24 11:08:23,881 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module dam-app-jcr
+2020-12-24 11:08:23,881 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module javascript-models
+2020-12-24 11:08:23,883 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module mtk
+2020-12-24 11:08:23,883 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module rssaggregator
+2020-12-24 11:08:23,888 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module categorization
+2020-12-24 11:08:23,888 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-cs
+2020-12-24 11:08:23,888 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-de
+2020-12-24 11:08:23,888 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-es
+2020-12-24 11:08:23,888 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-fi
+2020-12-24 11:08:23,888 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-fr
+2020-12-24 11:08:23,889 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-hr
+2020-12-24 11:08:23,889 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-id
+2020-12-24 11:08:23,889 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-it
+2020-12-24 11:08:23,889 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-ja
+2020-12-24 11:08:23,889 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-ko
+2020-12-24 11:08:23,889 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-nl
+2020-12-24 11:08:23,889 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-no
+2020-12-24 11:08:23,889 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-pl
+2020-12-24 11:08:23,889 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-pt
+2020-12-24 11:08:23,889 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-pt_BR
+2020-12-24 11:08:23,889 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-ru
+2020-12-24 11:08:23,889 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-sk
+2020-12-24 11:08:23,890 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-sq
+2020-12-24 11:08:23,890 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-sv
+2020-12-24 11:08:23,890 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-tr
+2020-12-24 11:08:23,890 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-zh_CN
+2020-12-24 11:08:23,890 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module lang-zh_TW
+2020-12-24 11:08:23,890 INFO  info.magnolia.module.ModuleManagerImpl            : Initializing module webapp
+2020-12-24 11:08:25,194 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up ModuleYamlConfigurationSource to load Object definitions from resources
+2020-12-24 11:08:25,376 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/periscope-core/config.yaml]: [module] definition [periscope-core] with reference id: [periscope-core] from module [periscope-core] at [periscope-core/config]
+2020-12-24 11:08:25,527 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/templating/config.yaml]: [module] definition [templating] with reference id: [templating] from module [templating] at [templating/config]
+2020-12-24 11:08:25,540 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/admincentral/config.yaml]: [module] definition [admincentral] with reference id: [admincentral] from module [admincentral] at [admincentral/config]
+2020-12-24 11:08:25,548 INFO  info.magnolia.dirwatch.DirectoryWatcherService    : Starting DirectoryWatcher
+2020-12-24 11:08:25,627 INFO  ource.yaml.AbstractFileResourceConfigurationSource: File based definition decorator resolved from [/rest-services/decorations/cache/modules/config/contentCaching.yaml] and will be added to [modules] registry
+2020-12-24 11:08:25,670 INFO  fig.source.yaml.decoration.YamlDefinitionDecorator: Applied YAML file based decorator from [/rest-services/decorations/cache/modules/config/contentCaching.yaml] to definition provider [[module] definition [cache] with reference id: [cache] from module [cache] at [/modules/cache/config]]
+2020-12-24 11:08:25,710 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module dam
+2020-12-24 11:08:25,710 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module publishing-core
+2020-12-24 11:08:25,718 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module rest-integration
+2020-12-24 11:08:25,827 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load EndpointDefinition definitions from resources
+2020-12-24 11:08:25,896 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/restEndpoints/delivery/pagenav_v1.yaml]: [restEndpoint] definition [pagenav_v1] with reference id: [delivery/pagenav_v1] from module [spa-lm] at [delivery/pagenav_v1]
+2020-12-24 11:08:25,927 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/restEndpoints/delivery/pages_v1.yaml]: [restEndpoint] definition [pages_v1] with reference id: [delivery/pages_v1] from module [spa-lm] at [delivery/pages_v1]
+2020-12-24 11:08:25,939 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/rest-services/restEndpoints/status.yaml]: [restEndpoint] definition [status] with reference id: [status] from module [rest-services] at [status]
+2020-12-24 11:08:25,946 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-rendering/restEndpoints/templateDefinitions/templateDefinitionEndpoint.yaml]: [restEndpoint] definition [templateDefinitionEndpoint] with reference id: [templateDefinitions/templateDefinitionEndpoint] from module [spa-rendering] at [templateDefinitions/templateDefinitionEndpoint]
+2020-12-24 11:08:25,982 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module config
+2020-12-24 11:08:25,983 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module cache
+2020-12-24 11:08:26,006 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module content-types
+2020-12-24 11:08:26,007 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load ContentTypeDefinition definitions from resources
+2020-12-24 11:08:26,071 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/pages-app/contentTypes/page.yaml]: [contentType] definition [page] with reference id: [page] from module [pages-app] at [page]
+2020-12-24 11:08:26,074 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/dam-app-jcr/contentTypes/asset.yaml]: [contentType] definition [asset] with reference id: [asset] from module [dam-app-jcr] at [asset]
+2020-12-24 11:08:26,077 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/categorization/contentTypes/category.yaml]: [contentType] definition [category] with reference id: [category] from module [categorization] at [category]
+2020-12-24 11:08:26,121 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module periscope-core
+2020-12-24 11:08:26,121 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load SearchResultSupplierDefinition definitions from resources
+2020-12-24 11:08:26,173 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/periscope-core/searchResultSuppliers/magnoliaDocumentation.yaml]: [searchResultSupplier] definition [magnoliaDocumentation] with reference id: [magnoliaDocumentation] from module [periscope-core] at [magnoliaDocumentation]
+2020-12-24 11:08:26,185 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-admincentral/searchResultSuppliers/configuration.yaml]: [searchResultSupplier] definition [configuration] with reference id: [configuration] from module [ui-admincentral] at [configuration]
+2020-12-24 11:08:26,189 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/pages-app/searchResultSuppliers/pages-app.yaml]: [searchResultSupplier] definition [pages-app] with reference id: [pages-app] from module [pages-app] at [pages-app]
+2020-12-24 11:08:26,198 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/admincentral/searchResultSuppliers/apps.yaml]: [searchResultSupplier] definition [apps] with reference id: [apps] from module [admincentral] at [apps]
+2020-12-24 11:08:26,202 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/dam-app/searchResultSuppliers/assets.yaml]: [searchResultSupplier] definition [assets] with reference id: [assets] from module [dam-app] at [assets]
+2020-12-24 11:08:26,205 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/dam-app-core/searchResultSuppliers/dam.yaml]: [searchResultSupplier] definition [dam] with reference id: [dam] from module [dam-app-core] at [dam]
+2020-12-24 11:08:26,247 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load OperationDefinition definitions from resources
+2020-12-24 11:08:26,295 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/admincentral/operations/appNavigation.yaml]: [operation] definition [appNavigation] with reference id: [appNavigation] from module [admincentral] at [appNavigation]
+2020-12-24 11:08:26,301 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/admincentral/operations/contentNavigation.yaml]: [operation] definition [contentNavigation] with reference id: [contentNavigation] from module [admincentral] at [contentNavigation]
+2020-12-24 11:08:26,306 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/admincentral/operations/externalNavigation.yaml]: [operation] definition [externalNavigation] with reference id: [externalNavigation] from module [admincentral] at [externalNavigation]
+2020-12-24 11:08:26,314 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/admincentral/operations/internalNavigation.yaml]: [operation] definition [internalNavigation] with reference id: [internalNavigation] from module [admincentral] at [internalNavigation]
+2020-12-24 11:08:26,319 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/admincentral/operations/nodeNavigation.yaml]: [operation] definition [nodeNavigation] with reference id: [nodeNavigation] from module [admincentral] at [nodeNavigation]
+2020-12-24 11:08:26,360 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load QuerySnifferDefinition definitions from resources
+2020-12-24 11:08:26,423 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/admincentral/querySniffers/findContent.yaml]: [querySniffer] definition [findContent] with reference id: [findContent] from module [admincentral] at [findContent]
+2020-12-24 11:08:26,427 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/admincentral/querySniffers/findNode.yaml]: [querySniffer] definition [findNode] with reference id: [findNode] from module [admincentral] at [findNode]
+2020-12-24 11:08:26,453 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/admincentral/querySniffers/openApp.yaml]: [querySniffer] definition [openApp] with reference id: [openApp] from module [admincentral] at [openApp]
+2020-12-24 11:08:26,533 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module rendering
+2020-12-24 11:08:26,871 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load Renderer definitions from resources
+2020-12-24 11:08:26,938 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-rendering/renderers/spa.yaml]: [renderer] definition [spa] with reference id: [spa] from module [spa-rendering] at [spa]
+2020-12-24 11:08:26,969 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load TemplateDefinition definitions from resources
+2020-12-24 11:08:27,013 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/vue-minimal-lm/templates/pages/basic.yaml]: [template] definition [basic] with reference id: [vue-minimal-lm:pages/basic] from module [vue-minimal-lm] at [pages/basic]
+2020-12-24 11:08:27,016 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/vue-minimal-lm/templates/pages/contact.yaml]: [template] definition [contact] with reference id: [vue-minimal-lm:pages/contact] from module [vue-minimal-lm] at [pages/contact]
+2020-12-24 11:08:27,020 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/react-minimal-lm/templates/pages/basic.yaml]: [template] definition [basic] with reference id: [react-minimal-lm:pages/basic] from module [react-minimal-lm] at [pages/basic]
+2020-12-24 11:08:27,023 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/react-minimal-lm/templates/pages/contact.yaml]: [template] definition [contact] with reference id: [react-minimal-lm:pages/contact] from module [react-minimal-lm] at [pages/contact]
+2020-12-24 11:08:27,026 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/angular-minimal-lm/templates/pages/basic.yaml]: [template] definition [basic] with reference id: [angular-minimal-lm:pages/basic] from module [angular-minimal-lm] at [pages/basic]
+2020-12-24 11:08:27,029 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/angular-minimal-lm/templates/pages/contact.yaml]: [template] definition [contact] with reference id: [angular-minimal-lm:pages/contact] from module [angular-minimal-lm] at [pages/contact]
+2020-12-24 11:08:27,037 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/web-components-minimal-lm/templates/components/headline.yaml]: [template] definition [headline] with reference id: [web-components-minimal-lm:components/headline] from module [web-components-minimal-lm] at [components/headline]
+2020-12-24 11:08:27,040 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/web-components-minimal-lm/templates/components/image.yaml]: [template] definition [image] with reference id: [web-components-minimal-lm:components/image] from module [web-components-minimal-lm] at [components/image]
+2020-12-24 11:08:27,042 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/web-components-minimal-lm/templates/components/list.yaml]: [template] definition [list] with reference id: [web-components-minimal-lm:components/list] from module [web-components-minimal-lm] at [components/list]
+2020-12-24 11:08:27,046 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/web-components-minimal-lm/templates/components/listItem.yaml]: [template] definition [listItem] with reference id: [web-components-minimal-lm:components/listItem] from module [web-components-minimal-lm] at [components/listItem]
+2020-12-24 11:08:27,049 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/web-components-minimal-lm/templates/components/paragraph.yaml]: [template] definition [paragraph] with reference id: [web-components-minimal-lm:components/paragraph] from module [web-components-minimal-lm] at [components/paragraph]
+2020-12-24 11:08:27,052 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/web-components-minimal-lm/templates/pages/basic.yaml]: [template] definition [basic] with reference id: [web-components-minimal-lm:pages/basic] from module [web-components-minimal-lm] at [pages/basic]
+2020-12-24 11:08:27,054 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/templates/components/expander.yaml]: [template] definition [expander] with reference id: [spa-lm:components/expander] from module [spa-lm] at [components/expander]
+2020-12-24 11:08:27,056 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/templates/components/headline.yaml]: [template] definition [headline] with reference id: [spa-lm:components/headline] from module [spa-lm] at [components/headline]
+2020-12-24 11:08:27,057 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/templates/components/image.yaml]: [template] definition [image] with reference id: [spa-lm:components/image] from module [spa-lm] at [components/image]
+2020-12-24 11:08:27,059 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/templates/components/list.yaml]: [template] definition [list] with reference id: [spa-lm:components/list] from module [spa-lm] at [components/list]
+2020-12-24 11:08:27,060 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/templates/components/listItem.yaml]: [template] definition [listItem] with reference id: [spa-lm:components/listItem] from module [spa-lm] at [components/listItem]
+2020-12-24 11:08:27,062 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/templates/components/paragraph.yaml]: [template] definition [paragraph] with reference id: [spa-lm:components/paragraph] from module [spa-lm] at [components/paragraph]
+2020-12-24 11:08:27,064 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/templates/components/html.yaml]: [template] definition [html] with reference id: [mtk:components/html] from module [mtk] at [components/html]
+2020-12-24 11:08:27,066 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/templates/components/image.yaml]: [template] definition [image] with reference id: [mtk:components/image] from module [mtk] at [components/image]
+2020-12-24 11:08:27,068 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/templates/components/link.yaml]: [template] definition [link] with reference id: [mtk:components/link] from module [mtk] at [components/link]
+2020-12-24 11:08:27,071 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/templates/components/linkList.yaml]: [template] definition [linkList] with reference id: [mtk:components/linkList] from module [mtk] at [components/linkList]
+2020-12-24 11:08:27,074 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/templates/components/pageIntro.yaml]: [template] definition [pageIntro] with reference id: [mtk:components/pageIntro] from module [mtk] at [components/pageIntro]
+2020-12-24 11:08:27,076 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/templates/components/teaser.yaml]: [template] definition [teaser] with reference id: [mtk:components/teaser] from module [mtk] at [components/teaser]
+2020-12-24 11:08:27,078 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/templates/components/textImage.yaml]: [template] definition [textImage] with reference id: [mtk:components/textImage] from module [mtk] at [components/textImage]
+2020-12-24 11:08:27,080 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/templates/components/video.yaml]: [template] definition [video] with reference id: [mtk:components/video] from module [mtk] at [components/video]
+2020-12-24 11:08:27,120 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/templates/pages/basic.yaml]: [template] definition [basic] with reference id: [mtk:pages/basic] from module [mtk] at [pages/basic]
+2020-12-24 11:08:27,122 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/templates/pages/redirect.yaml]: [template] definition [redirect] with reference id: [mtk:pages/redirect] from module [mtk] at [pages/redirect]
+2020-12-24 11:08:27,159 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module ui-framework-core
+2020-12-24 11:08:27,159 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module virtual-uri
+2020-12-24 11:08:27,199 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load VirtualUriMapping definitions from resources
+2020-12-24 11:08:27,256 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module imaging
+2020-12-24 11:08:27,410 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module ui-framework
+2020-12-24 11:08:27,590 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load FieldTypeDefinition definitions from resources
+2020-12-24 11:08:27,625 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/basicUpload.yaml]: [fieldType] definition [basicUpload] with reference id: [basicUpload] from module [ui-framework] at [basicUpload]
+2020-12-24 11:08:27,629 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/checkbox.yaml]: [fieldType] definition [checkbox] with reference id: [checkbox] from module [ui-framework] at [checkbox]
+2020-12-24 11:08:27,636 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/code.yaml]: [fieldType] definition [code] with reference id: [code] from module [ui-framework] at [code]
+2020-12-24 11:08:27,639 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/composite.yaml]: [fieldType] definition [composite] with reference id: [composite] from module [ui-framework] at [composite]
+2020-12-24 11:08:27,643 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/date.yaml]: [fieldType] definition [date] with reference id: [date] from module [ui-framework] at [date]
+2020-12-24 11:08:27,646 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/hidden.yaml]: [fieldType] definition [hidden] with reference id: [hidden] from module [ui-framework] at [hidden]
+2020-12-24 11:08:27,651 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/link.yaml]: [fieldType] definition [link] with reference id: [link] from module [ui-framework] at [link]
+2020-12-24 11:08:27,655 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/linkFieldSelection.yaml]: [fieldType] definition [linkFieldSelection] with reference id: [linkFieldSelection] from module [ui-framework] at [linkFieldSelection]
+2020-12-24 11:08:27,657 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/multiValue.yaml]: [fieldType] definition [multiValue] with reference id: [multiValue] from module [ui-framework] at [multiValue]
+2020-12-24 11:08:27,662 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/nodeTypeSelect.yaml]: [fieldType] definition [nodeTypeSelect] with reference id: [nodeTypeSelect] from module [ui-framework] at [nodeTypeSelect]
+2020-12-24 11:08:27,667 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/optionGroup.yaml]: [fieldType] definition [optionGroup] with reference id: [optionGroup] from module [ui-framework] at [optionGroup]
+2020-12-24 11:08:27,671 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/password.yaml]: [fieldType] definition [password] with reference id: [password] from module [ui-framework] at [password]
+2020-12-24 11:08:27,674 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/richText.yaml]: [fieldType] definition [richText] with reference id: [richText] from module [ui-framework] at [richText]
+2020-12-24 11:08:27,676 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/select.yaml]: [fieldType] definition [select] with reference id: [select] from module [ui-framework] at [select]
+2020-12-24 11:08:27,679 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/static.yaml]: [fieldType] definition [static] with reference id: [static] from module [ui-framework] at [static]
+2020-12-24 11:08:27,681 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/switchable.yaml]: [fieldType] definition [switchable] with reference id: [switchable] from module [ui-framework] at [switchable]
+2020-12-24 11:08:27,683 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/text.yaml]: [fieldType] definition [text] with reference id: [text] from module [ui-framework] at [text]
+2020-12-24 11:08:27,685 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/twinColSelect.yaml]: [fieldType] definition [twinColSelect] with reference id: [twinColSelect] from module [ui-framework] at [twinColSelect]
+2020-12-24 11:08:27,690 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework/fieldTypes/workbench.yaml]: [fieldType] definition [workbench] with reference id: [workbench] from module [ui-framework] at [workbench]
+2020-12-24 11:08:27,696 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-admincentral/fieldTypes/timeZone.yaml]: [fieldType] definition [timeZone] with reference id: [timeZone] from module [ui-admincentral] at [timeZone]
+2020-12-24 11:08:27,700 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/dam-app/fieldTypes/damUpload.yaml]: [fieldType] definition [damUpload] with reference id: [damUpload] from module [dam-app] at [damUpload]
+2020-12-24 11:08:27,704 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/dam-app/fieldTypes/damWorkbench.yaml]: [fieldType] definition [damWorkbench] with reference id: [damWorkbench] from module [dam-app] at [damWorkbench]
+2020-12-24 11:08:27,714 INFO  ource.yaml.AbstractFileResourceConfigurationSource: File based definition decorator resolved from [/dam-app/decorations/ui-framework/fieldTypes/richText.yaml] and will be added to [fieldTypes] registry
+2020-12-24 11:08:28,409 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load DialogDefinition definitions from resources
+2020-12-24 11:08:28,522 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/dialogs/components/headline.yaml]: [dialog] definition [headline] with reference id: [spa-lm:components/headline] from module [spa-lm] at [components/headline]
+2020-12-24 11:08:28,608 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/dialogs/components/image.yaml]: [dialog] definition [image] with reference id: [spa-lm:components/image] from module [spa-lm] at [components/image]
+2020-12-24 11:08:28,611 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/dialogs/components/listItem.yaml]: [dialog] definition [listItem] with reference id: [spa-lm:components/listItem] from module [spa-lm] at [components/listItem]
+2020-12-24 11:08:28,626 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/dialogs/components/paragraph.yaml]: [dialog] definition [paragraph] with reference id: [spa-lm:components/paragraph] from module [spa-lm] at [components/paragraph]
+2020-12-24 11:08:28,628 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/dialogs/pages/basic.yaml]: [dialog] definition [basic] with reference id: [spa-lm:pages/basic] from module [spa-lm] at [pages/basic]
+2020-12-24 11:08:28,729 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework-jcr/dialogs/chooser.yaml]: [dialog] definition [chooser] with reference id: [ui-framework-jcr:chooser] from module [ui-framework-jcr] at [chooser]
+2020-12-24 11:08:28,754 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework-jcr/dialogs/import.yaml]: [dialog] definition [import] with reference id: [ui-framework-jcr:import] from module [ui-framework-jcr] at [import]
+2020-12-24 11:08:28,779 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework-jcr/dialogs/move.yaml]: [dialog] definition [move] with reference id: [ui-framework-jcr:move] from module [ui-framework-jcr] at [move]
+2020-12-24 11:08:28,794 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework-jcr/dialogs/rename.yaml]: [dialog] definition [rename] with reference id: [ui-framework-jcr:rename] from module [ui-framework-jcr] at [rename]
+2020-12-24 11:08:28,812 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework-jcr/dialogs/restoreVersion.yaml]: [dialog] definition [restoreVersion] with reference id: [ui-framework-jcr:restoreVersion] from module [ui-framework-jcr] at [restoreVersion]
+2020-12-24 11:08:28,825 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/ui-framework-jcr/dialogs/versions.yaml]: [dialog] definition [versions] with reference id: [ui-framework-jcr:versions] from module [ui-framework-jcr] at [versions]
+2020-12-24 11:08:28,841 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/jcr-browser/dialogs/addNode.yaml]: [dialog] definition [addNode] with reference id: [jcr-browser:addNode] from module [jcr-browser] at [addNode]
+2020-12-24 11:08:28,854 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/jcr-browser/dialogs/editProperty.yaml]: [dialog] definition [editProperty] with reference id: [jcr-browser:editProperty] from module [jcr-browser] at [editProperty]
+2020-12-24 11:08:28,865 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/jcr-browser/dialogs/rename.yaml]: [dialog] definition [rename] with reference id: [jcr-browser:rename] from module [jcr-browser] at [rename]
+2020-12-24 11:08:28,868 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/pages-app/dialogs/changePageTemplate.yaml]: [dialog] definition [changePageTemplate] with reference id: [pages-app:changePageTemplate] from module [pages-app] at [changePageTemplate]
+2020-12-24 11:08:28,898 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/pages-app/dialogs/componentTemplate.yaml]: [dialog] definition [componentTemplate] with reference id: [pages-app:componentTemplate] from module [pages-app] at [componentTemplate]
+2020-12-24 11:08:28,913 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/pages-app/dialogs/createPage.yaml]: [dialog] definition [createPage] with reference id: [pages-app:createPage] from module [pages-app] at [createPage]
+2020-12-24 11:08:28,956 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/pages-app/dialogs/newComponent.yaml]: [dialog] definition [newComponent] with reference id: [pages-app:newComponent] from module [pages-app] at [newComponent]
+2020-12-24 11:08:28,960 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/pages-app/dialogs/renamePage.yaml]: [dialog] definition [renamePage] with reference id: [pages-app:renamePage] from module [pages-app] at [renamePage]
+2020-12-24 11:08:28,963 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/pages-app/dialogs/versions.yaml]: [dialog] definition [versions] with reference id: [pages-app:versions] from module [pages-app] at [versions]
+2020-12-24 11:08:28,994 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/resources-app/dialogs/addFile.yaml]: [dialog] definition [addFile] with reference id: [resources-app:addFile] from module [resources-app] at [addFile]
+2020-12-24 11:08:29,010 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/resources-app/dialogs/addFolder.yaml]: [dialog] definition [addFolder] with reference id: [resources-app:addFolder] from module [resources-app] at [addFolder]
+2020-12-24 11:08:29,040 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/resources-app/dialogs/upload.yaml]: [dialog] definition [upload] with reference id: [resources-app:upload] from module [resources-app] at [upload]
+2020-12-24 11:08:29,048 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/resources-app/dialogs/versions.yaml]: [dialog] definition [versions] with reference id: [resources-app:versions] from module [resources-app] at [versions]
+2020-12-24 11:08:29,059 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/admincentral/dialogs/userMenu.yaml]: [dialog] definition [userMenu] with reference id: [admincentral:userMenu] from module [admincentral] at [userMenu]
+2020-12-24 11:08:29,168 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/dam-app-core/dialogs/chooser.yaml]: [dialog] definition [chooser] with reference id: [dam-app-core:chooser] from module [dam-app-core] at [chooser]
+2020-12-24 11:08:29,176 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mte/dialogs/pages/pageProperties.yaml]: [dialog] definition [pageProperties] with reference id: [mte:pages/pageProperties] from module [mte] at [pages/pageProperties]
+2020-12-24 11:08:29,179 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/dam-app-jcr/dialogs/rename.yaml]: [dialog] definition [rename] with reference id: [dam-app-jcr:rename] from module [dam-app-jcr] at [rename]
+2020-12-24 11:08:29,191 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/dam-app-jcr/dialogs/upload.yaml]: [dialog] definition [upload] with reference id: [dam-app-jcr:upload] from module [dam-app-jcr] at [upload]
+2020-12-24 11:08:29,194 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/dam-app-jcr/dialogs/versions.yaml]: [dialog] definition [versions] with reference id: [dam-app-jcr:versions] from module [dam-app-jcr] at [versions]
+2020-12-24 11:08:29,198 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/dialogs/components/html.yaml]: [dialog] definition [html] with reference id: [mtk:components/html] from module [mtk] at [components/html]
+2020-12-24 11:08:29,225 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/dialogs/components/image.yaml]: [dialog] definition [image] with reference id: [mtk:components/image] from module [mtk] at [components/image]
+2020-12-24 11:08:29,232 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/dialogs/components/link.yaml]: [dialog] definition [link] with reference id: [mtk:components/link] from module [mtk] at [components/link]
+2020-12-24 11:08:29,266 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/dialogs/components/linkList.yaml]: [dialog] definition [linkList] with reference id: [mtk:components/linkList] from module [mtk] at [components/linkList]
+2020-12-24 11:08:29,274 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/dialogs/components/teaser.yaml]: [dialog] definition [teaser] with reference id: [mtk:components/teaser] from module [mtk] at [components/teaser]
+2020-12-24 11:08:29,286 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/dialogs/components/textImage.yaml]: [dialog] definition [textImage] with reference id: [mtk:components/textImage] from module [mtk] at [components/textImage]
+2020-12-24 11:08:29,296 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/dialogs/components/video.yaml]: [dialog] definition [video] with reference id: [mtk:components/video] from module [mtk] at [components/video]
+2020-12-24 11:08:29,300 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/dialogs/pages/basic.yaml]: [dialog] definition [basic] with reference id: [mtk:pages/basic] from module [mtk] at [pages/basic]
+2020-12-24 11:08:29,318 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/mtk/dialogs/pages/redirect.yaml]: [dialog] definition [redirect] with reference id: [mtk:pages/redirect] from module [mtk] at [pages/redirect]
+2020-12-24 11:08:30,927 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load AppDescriptor definitions from resources
+2020-12-24 11:08:31,278 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/tasks-app/apps/tasks-app.yaml]: [app] definition [tasks-app] with reference id: [tasks-app] from module [tasks-app] at [tasks-app]
+2020-12-24 11:08:31,450 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/definitions-app/apps/definitions-app.yaml]: [app] definition [definitions-app] with reference id: [definitions-app] from module [definitions-app] at [definitions-app]
+2020-12-24 11:08:31,867 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/jcr-browser/apps/jcr-browser-app.yaml]: [app] definition [jcr-browser-app] with reference id: [jcr-browser-app] from module [jcr-browser] at [jcr-browser-app]
+2020-12-24 11:08:32,192 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/pages-app/apps/pages-app.yaml]: [app] definition [pages-app] with reference id: [pages-app] from module [pages-app] at [pages-app]
+2020-12-24 11:08:32,231 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/password-manager/apps/password-manager.yaml]: [app] definition [password-manager] with reference id: [password-manager] from module [password-manager] at [password-manager]
+2020-12-24 11:08:32,239 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/publishing-app/apps/publishing.yaml]: [app] definition [publishing] with reference id: [publishing] from module [publishing-app] at [publishing]
+2020-12-24 11:08:32,510 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/resources-app/apps/resources.yaml]: [app] definition [resources] with reference id: [resources] from module [resources-app] at [resources]
+2020-12-24 11:08:32,600 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/admincentral/apps/notifications.yaml]: [app] definition [notifications] with reference id: [notifications] from module [admincentral] at [notifications]
+2020-12-24 11:08:32,657 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/dam-app-core/apps/dam-chooser.yaml]: [app] definition [dam-chooser] with reference id: [dam-chooser] from module [dam-app-core] at [dam-chooser][app] definition [dam-chooser] with reference id: [dam-chooser] from module [dam-app-core] at [dam-chooser] which is deprecated [Since=3.0.3,Description=Use $type: damlinkField instead of referencing this app.]
+2020-12-24 11:08:32,674 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/dam-app-core/apps/dam.yaml]: [app] definition [dam] with reference id: [dam] from module [dam-app-core] at [dam]
+2020-12-24 11:08:32,681 INFO  ource.yaml.AbstractFileResourceConfigurationSource: File based definition decorator resolved from [/dam-app-jcr/decorations/dam-assets-app/apps/dam.subApps.yaml] and will be added to [apps] registry
+2020-12-24 11:08:32,707 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module scheduler
+2020-12-24 11:08:32,816 INFO  info.magnolia.module.scheduler.SchedulerModule    : Job cleanTempFiles added [0 0 0/12 1/1 * ? *]. Will fire for the first time on Thu Dec 24 at 12:00:00 ICT 2020
+2020-12-24 11:08:32,817 INFO  info.magnolia.module.scheduler.SchedulerModule    : Job configScan added [0 0 0 * * ?]. Will fire for the first time on Fri Dec 25 at 00:00:00 ICT 2020
+2020-12-24 11:08:32,817 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module site
+2020-12-24 11:08:32,852 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load Theme definitions from resources
+2020-12-24 11:08:32,949 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/spa-lm/themes/travel-demo-theme.yaml]: [theme] definition [travel-demo-theme] with reference id: [travel-demo-theme] from module [spa-lm] at [travel-demo-theme]
+2020-12-24 11:08:32,980 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module ui-admincentral
+2020-12-24 11:08:33,098 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load ItemViewDefinition definitions from resources
+2020-12-24 11:08:33,127 INFO  agnolia.config.source.yaml.YamlConfigurationSource: Registered definition from YAML file [/admincentral/messageViews/default.yaml]: [messageView] definition [default] with reference id: [admincentral:default] from module [admincentral] at [default]
+2020-12-24 11:08:34,204 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module ui-mediaeditor
+2020-12-24 11:08:34,317 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load MediaEditorDefinition definitions from resources
+2020-12-24 11:08:34,362 INFO  ource.yaml.AbstractFileResourceConfigurationSource: File based definition decorator resolved from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actionbar.sections.operations.yaml] and will be added to [mediaEditors] registry
+2020-12-24 11:08:34,362 INFO  ource.yaml.AbstractFileResourceConfigurationSource: File based definition decorator resolved from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actions.redo.yaml] and will be added to [mediaEditors] registry
+2020-12-24 11:08:34,365 INFO  fig.source.yaml.decoration.YamlDefinitionDecorator: Applied YAML file based decorator from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actionbar.sections.operations.yaml] to definition provider [[mediaEditor] definition [image] with reference id: [ui-mediaeditor:image] from module [ui-mediaeditor] at [image]]
+2020-12-24 11:08:34,366 INFO  ource.yaml.AbstractFileResourceConfigurationSource: File based definition decorator resolved from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actions.undo.yaml] and will be added to [mediaEditors] registry
+2020-12-24 11:08:34,376 INFO  fig.source.yaml.decoration.YamlDefinitionDecorator: Applied YAML file based decorator from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actions.redo.yaml] to definition provider [[mediaEditor] definition [image] with reference id: [ui-mediaeditor:image] from module [ui-mediaeditor] at [image]]
+2020-12-24 11:08:34,379 INFO  fig.source.yaml.decoration.YamlDefinitionDecorator: Applied YAML file based decorator from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actionbar.sections.operations.yaml] to definition provider [[mediaEditor] definition [image] with reference id: [ui-mediaeditor:image] from module [ui-mediaeditor] at [image]]
+2020-12-24 11:08:34,453 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module magnolia-usage-metrics
+2020-12-24 11:08:34,453 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module password-manager
+2020-12-24 11:08:34,457 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module task-management
+2020-12-24 11:08:34,678 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module content-importer
+2020-12-24 11:08:34,678 INFO  fo.magnolia.content.observer.ContentImporterModule: Content bootstrap directory is not defined with property of 'magnolia.content.bootstrap.dir' in magnolia.properties file, therefore observation is not started.
+2020-12-24 11:08:34,679 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module mail
+2020-12-24 11:08:34,679 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module rest-client
+2020-12-24 11:08:34,731 INFO  ource.yaml.AbstractFileResourceConfigurationSource: Setting up YamlConfigurationSource to load RestClientDefinition definitions from resources
+2020-12-24 11:08:34,777 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module javascript-models
+2020-12-24 11:08:35,026 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module rssaggregator
+2020-12-24 11:08:35,123 INFO  info.magnolia.module.ModuleManagerImpl            : Starting module categorization
+2020-12-24 11:08:35,151 WARN  info.magnolia.cms.util.WorkspaceObservingManager  : A deprecated class or method was used: Use reload() instead. Check the following trace: info.magnolia.commands.CommandsManager.reload(CommandsManager.java:269), info.magnolia.cms.util.WorkspaceObservingManager.start(WorkspaceObservingManager.java:91), the full stacktrace will be logged in debug mode in the info.magnolia.cms.util.DeprecationUtil category.
+2020-12-24 11:08:35,151 WARN  info.magnolia.cms.util.DeprecationUtil            : A deprecated class or method was used: Use reload() instead. Check the following trace: info.magnolia.commands.CommandsManager.reload(CommandsManager.java:269), info.magnolia.cms.util.WorkspaceObservingManager.start(WorkspaceObservingManager.java:91), the full stacktrace will be logged in debug mode in the info.magnolia.cms.util.DeprecationUtil category.
+A deprecated class or method was used: Use reload() instead. Check the following trace: info.magnolia.commands.CommandsManager.reload(CommandsManager.java:269), info.magnolia.cms.util.WorkspaceObservingManager.start(WorkspaceObservingManager.java:91), the full stacktrace will be logged in debug mode in the info.magnolia.cms.util.DeprecationUtil category.
+A deprecated class or method was used: Use reload() instead. Check the following trace: info.magnolia.commands.CommandsManager.reload(CommandsManager.java:269), info.magnolia.cms.util.WorkspaceObservingManager.start(WorkspaceObservingManager.java:91), the full stacktrace will be logged in debug mode in the info.magnolia.cms.util.DeprecationUtil category.
+2020-12-24 11:08:35,191 INFO  info.magnolia.commands.CommandsManager            : Catalog [default] registered: [info.magnolia.commands.MgnlCatalog: unpublish, publish, activate, deactivate]
+2020-12-24 11:08:35,215 INFO  info.magnolia.commands.CommandsManager            : Catalog [versioned] registered: [info.magnolia.commands.MgnlCatalog: unpublish, publish, activate, deactivate]
+2020-12-24 11:08:35,236 INFO  info.magnolia.commands.CommandsManager            : Catalog [cache] registered: [info.magnolia.commands.MgnlCatalog: flushNamedCache, flushByUUID, flushAll]
+2020-12-24 11:08:35,249 INFO  info.magnolia.commands.CommandsManager            : Catalog [resources] registered: [info.magnolia.commands.MgnlCatalog: versionResources]
+2020-12-24 11:08:35,278 INFO  info.magnolia.commands.CommandsManager            : Adding new command [importZip] to already registered catalog [default]...
+2020-12-24 11:08:35,278 INFO  info.magnolia.commands.CommandsManager            : Adding new command [cleanTempFiles] to already registered catalog [default]...
+2020-12-24 11:08:35,358 INFO  info.magnolia.commands.CommandsManager            : Adding new command [exportYaml] to already registered catalog [default]...
+2020-12-24 11:08:35,358 INFO  info.magnolia.commands.CommandsManager            : Adding new command [import] to already registered catalog [default]...
+2020-12-24 11:08:35,358 INFO  info.magnolia.commands.CommandsManager            : Adding new command [markAsDeleted] to already registered catalog [default]...
+2020-12-24 11:08:35,358 INFO  info.magnolia.commands.CommandsManager            : Adding new command [restorePreviousVersion] to already registered catalog [default]...
+2020-12-24 11:08:35,359 INFO  info.magnolia.commands.CommandsManager            : Adding new command [export] to already registered catalog [default]...
+2020-12-24 11:08:35,359 INFO  info.magnolia.commands.CommandsManager            : Adding new command [delete] to already registered catalog [default]...
+2020-12-24 11:08:35,368 INFO  info.magnolia.commands.CommandsManager            : Adding new command [configScan] to already registered catalog [default]...
+2020-12-24 11:08:35,380 INFO  info.magnolia.commands.CommandsManager            : Catalog [dam] registered: [info.magnolia.commands.MgnlCatalog: markAssetFolderAsDeleted, importAssetZip]
+2020-12-24 11:08:35,418 INFO  info.magnolia.commands.CommandsManager            : Adding new command [sendMail] to already registered catalog [default]...
+2020-12-24 11:08:35,433 INFO  info.magnolia.commands.CommandsManager            : Catalog [planet] registered: [info.magnolia.commands.MgnlCatalog: collectPlanetStatistics, generatePlanetData]
+2020-12-24 11:08:35,449 INFO  info.magnolia.commands.CommandsManager            : Catalog [rss] registered: [info.magnolia.commands.MgnlCatalog: importRss]
+2020-12-24 11:08:35,460 INFO  info.magnolia.commands.CommandsManager            : Catalog [categorization] registered: [info.magnolia.commands.MgnlCatalog: generateCategories, removeCategories]
+2020-12-24 11:08:35,689 TRACE class org.ehcache.core.Ehcache-defaultPageCache   : Initializing
+2020-12-24 11:08:35,758 DEBUG class org.ehcache.core.Ehcache-defaultPageCache   : Initialize successful.
+2020-12-24 11:08:35,783 TRACE class org.ehcache.core.Ehcache-uuid-key-mapping   : Initializing
+2020-12-24 11:08:35,790 DEBUG class org.ehcache.core.Ehcache-uuid-key-mapping   : Initialize successful.
+2020-12-24 11:08:36,307 INFO  info.magnolia.cms.i18n.DefaultMessagesManager     : Loading i18n configuration - /server/i18n/system
+2020-12-24 11:08:36,320 INFO  info.magnolia.cms.i18n.DefaultMessagesManager     : Registering event listener for i18n
+2020-12-24 11:08:36,324 INFO  info.magnolia.cms.beans.config.MIMEMapping        : Initializing MIMEMapping from /server/MIMEMapping
+2020-12-24 11:08:36,344 INFO  info.magnolia.cms.beans.config.MIMEMapping        : Registering event listener for MIMEMapping
+2020-12-24 11:08:36,347 INFO  info.magnolia.cms.beans.config.ConfigLoader       : Configuration loaded (took 62 seconds)
+2020-12-24 11:08:36,827 INFO  info.magnolia.cms.filters.FilterManagerImpl       : Initializing filters
+2020-12-24 11:08:36,828 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [context]
+2020-12-24 11:08:36,831 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [contentType]
+2020-12-24 11:08:36,831 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [multipartRequest]
+2020-12-24 11:08:36,831 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [unicodeNormalization]
+2020-12-24 11:08:36,831 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [csrfTokenSecurity]
+2020-12-24 11:08:36,832 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [login]
+2020-12-24 11:08:36,832 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [publishing]
+2020-12-24 11:08:36,832 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [gzip]
+2020-12-24 11:08:36,832 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [channel]
+2020-12-24 11:08:36,832 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [siteMerge]
+2020-12-24 11:08:36,833 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [logout]
+2020-12-24 11:08:36,833 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [securityCallback]
+2020-12-24 11:08:36,833 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [csrfSecurity]
+2020-12-24 11:08:36,833 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [uriSecurity]
+2020-12-24 11:08:36,833 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [range]
+2020-12-24 11:08:36,833 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [i18n]
+2020-12-24 11:08:36,833 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [cache]
+2020-12-24 11:08:36,835 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [cors]
+2020-12-24 11:08:36,836 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [virtualURI]
+2020-12-24 11:08:36,836 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [servlets]
+2020-12-24 11:08:36,836 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for DamDownloadServlet servlet]
+2020-12-24 11:08:36,838 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for RestDispatcherServlet servlet]
+2020-12-24 11:08:37,511 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint delivery/pagenav_v1 is registered with base path: [context]/delivery/pagenav/v1
+2020-12-24 11:08:37,517 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint preview/pagenav_v1 is registered with base path: [context]/preview/pagenav/v1
+2020-12-24 11:08:37,522 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint delivery/pages_v1 is registered with base path: [context]/delivery/pages/v1
+2020-12-24 11:08:37,525 INFO  info.magnolia.rest.RestDispatcherServlet          : Endpoint preview/pages_v1 is registered with base path: [context]/preview/pages/v1
+2020-12-24 11:08:37,526 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for ImagingServlet servlet]
+2020-12-24 11:08:37,526 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for ResourcesServlet servlet]
+2020-12-24 11:08:37,526 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for Admincentral-m5 servlet]
+24-Dec-2020 11:08:37.648 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+24-Dec-2020 11:08:37.648 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+24-Dec-2020 11:08:37.742 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+24-Dec-2020 11:08:37.768 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+24-Dec-2020 11:08:37.787 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+24-Dec-2020 11:08:37.828 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+24-Dec-2020 11:08:37.830 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+24-Dec-2020 11:08:37.830 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+24-Dec-2020 11:08:37.832 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+24-Dec-2020 11:08:37.832 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+24-Dec-2020 11:08:37.835 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+24-Dec-2020 11:08:37.836 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+24-Dec-2020 11:08:37.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+24-Dec-2020 11:08:37.840 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+24-Dec-2020 11:08:37.841 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+24-Dec-2020 11:08:37.841 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+24-Dec-2020 11:08:37.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+24-Dec-2020 11:08:37.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+24-Dec-2020 11:08:37.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+24-Dec-2020 11:08:37.844 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:37.845 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:37.846 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:37.846 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+24-Dec-2020 11:08:37.846 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:37.846 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:37.846 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:37.847 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:37.847 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:37.847 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:37.847 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+24-Dec-2020 11:08:37.848 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+24-Dec-2020 11:08:37.848 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+24-Dec-2020 11:08:37.848 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+24-Dec-2020 11:08:37.848 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+24-Dec-2020 11:08:37.849 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+24-Dec-2020 11:08:37.849 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+24-Dec-2020 11:08:37.849 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+24-Dec-2020 11:08:37.849 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+24-Dec-2020 11:08:37.849 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+24-Dec-2020 11:08:37.849 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+24-Dec-2020 11:08:37.850 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+24-Dec-2020 11:08:37.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+24-Dec-2020 11:08:37.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+24-Dec-2020 11:08:37.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+24-Dec-2020 11:08:37.858 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.39 using javax.servlet/3.0
+24-Dec-2020 11:08:37.858 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin1 started.
+24-Dec-2020 11:08:37.867 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2020-12-24 11:08:37,973 INFO  fig.source.yaml.decoration.YamlDefinitionDecorator: Applied YAML file based decorator from [/dam-app-jcr/decorations/dam-assets-app/apps/dam.subApps.yaml] to definition provider [[app] definition [dam] with reference id: [dam] from module [dam-app-core] at [dam]]
+2020-12-24 11:08:38,824 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for Admincentral servlet]
+24-Dec-2020 11:08:38.826 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+24-Dec-2020 11:08:38.826 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+24-Dec-2020 11:08:38.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+24-Dec-2020 11:08:38.850 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+24-Dec-2020 11:08:38.854 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+24-Dec-2020 11:08:38.882 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+24-Dec-2020 11:08:38.884 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+24-Dec-2020 11:08:38.884 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+24-Dec-2020 11:08:38.885 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+24-Dec-2020 11:08:38.885 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+24-Dec-2020 11:08:38.885 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+24-Dec-2020 11:08:38.886 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+24-Dec-2020 11:08:38.886 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+24-Dec-2020 11:08:38.886 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+24-Dec-2020 11:08:38.886 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+24-Dec-2020 11:08:38.887 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+24-Dec-2020 11:08:38.887 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+24-Dec-2020 11:08:38.887 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+24-Dec-2020 11:08:38.887 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+24-Dec-2020 11:08:38.887 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.888 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.888 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.888 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+24-Dec-2020 11:08:38.888 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.888 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.888 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.889 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.889 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.889 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.889 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+24-Dec-2020 11:08:38.889 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+24-Dec-2020 11:08:38.889 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+24-Dec-2020 11:08:38.890 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+24-Dec-2020 11:08:38.890 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+24-Dec-2020 11:08:38.890 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+24-Dec-2020 11:08:38.890 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+24-Dec-2020 11:08:38.890 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+24-Dec-2020 11:08:38.890 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+24-Dec-2020 11:08:38.890 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+24-Dec-2020 11:08:38.891 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+24-Dec-2020 11:08:38.891 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+24-Dec-2020 11:08:38.891 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+24-Dec-2020 11:08:38.891 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+24-Dec-2020 11:08:38.892 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+24-Dec-2020 11:08:38.892 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.39 using javax.servlet/3.0
+24-Dec-2020 11:08:38.893 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin1 started.
+24-Dec-2020 11:08:38.893 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2020-12-24 11:08:38,897 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for VaadinStatic servlet]
+24-Dec-2020 11:08:38.898 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+24-Dec-2020 11:08:38.898 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+24-Dec-2020 11:08:38.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+24-Dec-2020 11:08:38.919 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+24-Dec-2020 11:08:38.921 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+24-Dec-2020 11:08:38.945 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+24-Dec-2020 11:08:38.945 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+24-Dec-2020 11:08:38.946 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+24-Dec-2020 11:08:38.946 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+24-Dec-2020 11:08:38.946 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+24-Dec-2020 11:08:38.947 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+24-Dec-2020 11:08:38.947 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+24-Dec-2020 11:08:38.948 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+24-Dec-2020 11:08:38.948 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+24-Dec-2020 11:08:38.948 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+24-Dec-2020 11:08:38.948 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+24-Dec-2020 11:08:38.949 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+24-Dec-2020 11:08:38.949 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+24-Dec-2020 11:08:38.949 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+24-Dec-2020 11:08:38.949 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.950 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+24-Dec-2020 11:08:38.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.951 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.951 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+24-Dec-2020 11:08:38.951 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+24-Dec-2020 11:08:38.951 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+24-Dec-2020 11:08:38.951 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+24-Dec-2020 11:08:38.951 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+24-Dec-2020 11:08:38.952 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+24-Dec-2020 11:08:38.952 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+24-Dec-2020 11:08:38.952 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+24-Dec-2020 11:08:38.952 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+24-Dec-2020 11:08:38.952 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+24-Dec-2020 11:08:38.952 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+24-Dec-2020 11:08:38.952 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+24-Dec-2020 11:08:38.953 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+24-Dec-2020 11:08:38.953 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+24-Dec-2020 11:08:38.953 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+24-Dec-2020 11:08:38.953 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+24-Dec-2020 11:08:38.953 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.39 using javax.servlet/3.0
+24-Dec-2020 11:08:38.953 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin1 started.
+24-Dec-2020 11:08:38.954 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2020-12-24 11:08:38,955 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [Wrapper for FeedSyndicationServlet servlet]
+2020-12-24 11:08:38,958 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [cms]
+2020-12-24 11:08:38,958 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [repositoryMapping]
+2020-12-24 11:08:38,958 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [contentSecurity]
+2020-12-24 11:08:38,958 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [aggregator]
+2020-12-24 11:08:38,958 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [modelExecution]
+2020-12-24 11:08:38,958 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [rendering]
+2020-12-24 11:08:38,958 INFO  info.magnolia.cms.filters.CompositeFilter         : Initializing filter [addCORSHeaders]
+24-Dec-2020 11:08:38.993 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor] has finished in [82,731] ms
+24-Dec-2020 11:08:38.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/ROOT]
+24-Dec-2020 11:08:39.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/ROOT] has finished in [36] ms
+24-Dec-2020 11:08:39.031 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaPublic]
+24-Dec-2020 11:08:39.060 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+24-Dec-2020 11:08:39.065 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/magnoliaPublic] startup failed due to previous errors
+24-Dec-2020 11:08:39.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaPublic] has finished in [52] ms
+24-Dec-2020 11:08:39.088 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Dec-2020 11:08:39.119 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [82949] milliseconds

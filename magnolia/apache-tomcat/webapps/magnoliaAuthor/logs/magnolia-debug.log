@@ -1,0 +1,426 @@
+INFO  info.magnolia.init.MagnoliaServletContextListener 24.12.2020 11:07:33 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][EnvironmentPropertySource][ServletContextPropertySource from WEB-INF/config/magnoliaAuthor/magnolia.properties][ServletContextPropertySource from WEB-INF/config/magnoliaAuthor/magnolia.properties][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, periscope-api, spa-lm, speech-recognizer, categorization-support, ce-product-descriptor, imaging-support, publishing-core, resource-loader, rest-integration, config, i18n, publishing-receiver, publishing-sender, rest-services, cache, content-types, periscope-core, rendering, ui-framework-core, virtual-uri, dam-jcr, ehcache3, imaging, tasks-app, templating, ui-framework-jcr, resources, ui-framework, magnolia-resources-templating, scheduler, site, ui-admincentral, ui-mediaeditor, cache-app, dam-imaging, dam-templating, definitions-app, groovy, jcr-browser, log-tools, magnolia-usage-metrics, messages-app, mte-imaging, pages-app, password-manager, publishing-app, resources-app, security-app, spa-rendering, task-management, ui-contentapp, about-app, admincentral, content-importer, dam-app, jcr-tools, mail, rest-client, rest-content-delivery, site-app, cache-browser-app, dam-app-core, form, mte, rest-client-app, dam-app-jcr, javascript-models, mtk, rssaggregator, categorization, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-hr, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO  info.magnolia.cms.beans.config.ConfigLoader 24.12.2020 11:07:33 -- Initializing content repositories
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:33 -- Loading JCR
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:33 -- Loading JCR magnolia
+INFO  info.magnolia.jackrabbit.ProviderImpl 24.12.2020 11:07:34 -- Loading repository at /Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/repositories/magnolia (config file: /Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO  info.magnolia.jackrabbit.ProviderImpl 24.12.2020 11:07:38 -- Registering prefix [mgnl] with URI http://www.magnolia.info/jcr/mgnl
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:40 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:40 -- Loading workspace default (logical name default).
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:40 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO  info.magnolia.context.LifeTimeJCRSessionUtil 24.12.2020 11:07:49 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO  info.magnolia.objectfactory.ObservedComponentFactory 24.12.2020 11:07:49 -- /server/auditLogging does not exist, will return a new instance of class info.magnolia.audit.AuditLoggingManager.
+INFO  info.magnolia.objectfactory.ObservedComponentFactory 24.12.2020 11:07:49 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO  info.magnolia.module.webapp.WebappVersionHandler 24.12.2020 11:07:50 -- Content was not found in the repository, will bootstrap web-app.
+INFO  info.magnolia.module.ui.ModuleManagerNullUI 24.12.2020 11:07:50 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, and the magnolia.update.auto property is set to true,      *
+* so they will be applied automatically now.                                                            *
+*                                                                                                       *
+*********************************************************************************************************
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:50 -- Loading workspace resources (logical name resources).
+INFO  info.magnolia.jackrabbit.ProviderImpl 24.12.2020 11:07:50 -- Custom node types registered using /mgnl-nodetypes/magnolia-dam-nodetypes.cnd
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:50 -- Loading workspace dam (logical name dam).
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:51 -- Loading workspace imaging (logical name imaging).
+INFO  info.magnolia.jackrabbit.ProviderImpl 24.12.2020 11:07:51 -- Custom node types registered using /mgnl-nodetypes/magnolia-message-nodetypes.cnd
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:51 -- Loading workspace messages (logical name messages).
+INFO  info.magnolia.jackrabbit.ProviderImpl 24.12.2020 11:07:51 -- Custom node types registered using /mgnl-nodetypes/magnolia-favorite-nodetypes.cnd
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:51 -- Loading workspace profiles (logical name profiles).
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:51 -- Loading workspace scripts (logical name scripts).
+INFO  info.magnolia.jackrabbit.ProviderImpl 24.12.2020 11:07:51 -- Custom node types registered using /mgnl-nodetypes/magnolia-keystore-nodetypes.xml
+INFO  info.magnolia.jackrabbit.ProviderImpl 24.12.2020 11:07:51 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}password on repository magnolia
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:51 -- Loading workspace keystore (logical name keystore).
+INFO  info.magnolia.jackrabbit.ProviderImpl 24.12.2020 11:07:51 -- Custom node types registered using /mgnl-nodetypes/tasks-nodetypes.xml
+INFO  info.magnolia.jackrabbit.ProviderImpl 24.12.2020 11:07:51 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}task on repository magnolia
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:51 -- Loading workspace tasks (logical name tasks).
+INFO  info.magnolia.jackrabbit.ProviderImpl 24.12.2020 11:07:52 -- Custom node types registered using /mgnl-nodetypes/magnolia-rssaggregator-nodetypes.xml
+INFO  info.magnolia.jackrabbit.ProviderImpl 24.12.2020 11:07:52 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}rssAggregator on repository magnolia
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:52 -- Loading workspace rss (logical name rss).
+INFO  info.magnolia.jackrabbit.ProviderImpl 24.12.2020 11:07:52 -- Custom node types registered using /mgnl-nodetypes/magnolia-category-nodetypes.cnd
+INFO  info.magnolia.repository.DefaultRepositoryManager 24.12.2020 11:07:52 -- Loading workspace category (logical name category).
+WARN  info.magnolia.module.InstallContextImpl 24.12.2020 11:07:53 -- [13/678 tasks - Magnolia Core Module (version 6.2.5)]> Please set the config:/server/defaultBaseUrl property to a full URL to be used when generating absolute URLs for external systems.
+INFO  info.magnolia.objectfactory.ObservedComponentFactory 24.12.2020 11:07:53 -- Re-loaded info.magnolia.cms.security.SecuritySupport from node /server/security
+INFO  info.magnolia.objectfactory.ObservedComponentFactory 24.12.2020 11:07:53 -- Re-loaded info.magnolia.cms.security.SecuritySupport from node /server/security
+INFO  info.magnolia.objectfactory.ObservedComponentFactory 24.12.2020 11:07:54 -- Re-loaded info.magnolia.audit.AuditLoggingManager from node /server/auditLogging
+INFO  info.magnolia.objectfactory.ObservedComponentFactory 24.12.2020 11:07:55 -- Re-loaded info.magnolia.freemarker.FreemarkerConfig from node /server/rendering/freemarker
+WARN  info.magnolia.importexport.BootstrapUtil 24.12.2020 11:07:59 -- Deleted already existing node for bootstrapping: /modules/rendering/renderers/freemarker/contextAttributes
+WARN  info.magnolia.importexport.BootstrapUtil 24.12.2020 11:08:00 -- Deleted already existing node for bootstrapping: /server/filters/virtualURI
+INFO  info.magnolia.objectfactory.ObservedComponentFactory 24.12.2020 11:08:02 -- Re-loaded info.magnolia.freemarker.FreemarkerConfig from node /server/rendering/freemarker
+WARN  info.magnolia.importexport.BootstrapUtil 24.12.2020 11:08:03 -- Deleted already existing node for bootstrapping: /server/filters/uriSecurity/bypasses/login
+WARN  info.magnolia.importexport.BootstrapUtil 24.12.2020 11:08:03 -- Deleted already existing node for bootstrapping: /modules/ui-admincentral/commands/default/delete
+WARN  info.magnolia.importexport.BootstrapUtil 24.12.2020 11:08:03 -- Deleted already existing node for bootstrapping: /server/filters/securityCallback/clientCallbacks/form
+WARN  info.magnolia.importexport.BootstrapUtil 24.12.2020 11:08:03 -- Deleted already existing node for bootstrapping: /modules/ui-admincentral/messageViews/longRunning
+WARN  info.magnolia.importexport.BootstrapUtil 24.12.2020 11:08:09 -- Deleted already existing node for bootstrapping: /modules/ui-admincentral/apps/configuration/subApps/browser/actions/saveItemProperty
+WARN  info.magnolia.ui.admincentral.setup.AppLauncherReorderingTask 24.12.2020 11:08:10 -- Not reordering the assets app in the edit group because the relative app pages does not exist.
+WARN  info.magnolia.importexport.BootstrapUtil 24.12.2020 11:08:12 -- Deleted already existing node for bootstrapping: /modules/ui-admincentral/config/appLauncherLayout/groups/edit/apps/dam
+INFO  info.magnolia.objectfactory.ObservedComponentFactory 24.12.2020 11:08:15 -- Re-loaded info.magnolia.freemarker.FreemarkerConfig from node /server/rendering/freemarker
+WARN  info.magnolia.importexport.BootstrapUtil 24.12.2020 11:08:15 -- Deleted already existing node for bootstrapping: /modules/rssaggregator/config/feedGenerators/category
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:21 -- Trying to initialize repositories from: 
+    /Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/WEB-INF/bootstrap/author
+    /Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/WEB-INF/bootstrap/common
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:21 -- Trying to import content from 47 files into repository [dam]
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [dam] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [keystore] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [usergroups] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [magnolia-mgnlSystem] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [scripts] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [website] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [magnolia-mgnlVersion] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [userroles] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [profiles] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [users] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [tasks] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [imaging] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Trying to import content from 1 files into repository [category]
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [category] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [rss] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [default] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [resources] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [messages] has been initialized.
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Trying to import content from 3 files into repository [config]
+INFO  info.magnolia.importexport.Bootstrapper 24.12.2020 11:08:23 -- Repository [config] has been initialized.
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module core
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module dam
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module freemarker-support
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module periscope-api
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module spa-lm
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module speech-recognizer
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module categorization-support
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module ce-product-descriptor
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module imaging-support
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module publishing-core
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module resource-loader
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module rest-integration
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module config
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module i18n
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module publishing-receiver
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module publishing-sender
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module rest-services
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module cache
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module content-types
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module periscope-core
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module rendering
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module ui-framework-core
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module virtual-uri
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module dam-jcr
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module ehcache3
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module imaging
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module tasks-app
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module templating
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module ui-framework-jcr
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module resources
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module ui-framework
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module magnolia-resources-templating
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module scheduler
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module site
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module ui-admincentral
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module ui-mediaeditor
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module cache-app
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module dam-imaging
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module dam-templating
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module definitions-app
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module groovy
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module jcr-browser
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module log-tools
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module magnolia-usage-metrics
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module messages-app
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module mte-imaging
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module pages-app
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module password-manager
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module publishing-app
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module resources-app
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module security-app
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module spa-rendering
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module task-management
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module ui-contentapp
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module about-app
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module admincentral
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module content-importer
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module dam-app
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module jcr-tools
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module mail
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module rest-client
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module rest-content-delivery
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module site-app
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module cache-browser-app
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module dam-app-core
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module form
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module mte
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module rest-client-app
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module dam-app-jcr
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module javascript-models
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module mtk
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module rssaggregator
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module categorization
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-cs
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-de
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-es
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-fi
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-fr
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-hr
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-id
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-it
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-ja
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-ko
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-nl
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-no
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-pl
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-pt
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-pt_BR
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-ru
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-sk
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-sq
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-sv
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-tr
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-zh_CN
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module lang-zh_TW
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:23 -- Initializing module webapp
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:25 -- Setting up ModuleYamlConfigurationSource to load Object definitions from resources
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:25 -- Registered definition from YAML file [/periscope-core/config.yaml]: [module] definition [periscope-core] with reference id: [periscope-core] from module [periscope-core] at [periscope-core/config]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:25 -- Registered definition from YAML file [/templating/config.yaml]: [module] definition [templating] with reference id: [templating] from module [templating] at [templating/config]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:25 -- Registered definition from YAML file [/admincentral/config.yaml]: [module] definition [admincentral] with reference id: [admincentral] from module [admincentral] at [admincentral/config]
+INFO  info.magnolia.dirwatch.DirectoryWatcherService 24.12.2020 11:08:25 -- Starting DirectoryWatcher
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:25 -- File based definition decorator resolved from [/rest-services/decorations/cache/modules/config/contentCaching.yaml] and will be added to [modules] registry
+INFO  info.magnolia.config.source.yaml.decoration.YamlDefinitionDecorator 24.12.2020 11:08:25 -- Applied YAML file based decorator from [/rest-services/decorations/cache/modules/config/contentCaching.yaml] to definition provider [[module] definition [cache] with reference id: [cache] from module [cache] at [/modules/cache/config]]
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:25 -- Starting module dam
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:25 -- Starting module publishing-core
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:25 -- Starting module rest-integration
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:25 -- Setting up YamlConfigurationSource to load EndpointDefinition definitions from resources
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:25 -- Registered definition from YAML file [/spa-lm/restEndpoints/delivery/pagenav_v1.yaml]: [restEndpoint] definition [pagenav_v1] with reference id: [delivery/pagenav_v1] from module [spa-lm] at [delivery/pagenav_v1]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:25 -- Registered definition from YAML file [/spa-lm/restEndpoints/delivery/pages_v1.yaml]: [restEndpoint] definition [pages_v1] with reference id: [delivery/pages_v1] from module [spa-lm] at [delivery/pages_v1]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:25 -- Registered definition from YAML file [/rest-services/restEndpoints/status.yaml]: [restEndpoint] definition [status] with reference id: [status] from module [rest-services] at [status]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:25 -- Registered definition from YAML file [/spa-rendering/restEndpoints/templateDefinitions/templateDefinitionEndpoint.yaml]: [restEndpoint] definition [templateDefinitionEndpoint] with reference id: [templateDefinitions/templateDefinitionEndpoint] from module [spa-rendering] at [templateDefinitions/templateDefinitionEndpoint]
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:25 -- Starting module config
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:25 -- Starting module cache
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:26 -- Starting module content-types
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:26 -- Setting up YamlConfigurationSource to load ContentTypeDefinition definitions from resources
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/pages-app/contentTypes/page.yaml]: [contentType] definition [page] with reference id: [page] from module [pages-app] at [page]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/dam-app-jcr/contentTypes/asset.yaml]: [contentType] definition [asset] with reference id: [asset] from module [dam-app-jcr] at [asset]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/categorization/contentTypes/category.yaml]: [contentType] definition [category] with reference id: [category] from module [categorization] at [category]
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:26 -- Starting module periscope-core
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:26 -- Setting up YamlConfigurationSource to load SearchResultSupplierDefinition definitions from resources
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/periscope-core/searchResultSuppliers/magnoliaDocumentation.yaml]: [searchResultSupplier] definition [magnoliaDocumentation] with reference id: [magnoliaDocumentation] from module [periscope-core] at [magnoliaDocumentation]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/ui-admincentral/searchResultSuppliers/configuration.yaml]: [searchResultSupplier] definition [configuration] with reference id: [configuration] from module [ui-admincentral] at [configuration]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/pages-app/searchResultSuppliers/pages-app.yaml]: [searchResultSupplier] definition [pages-app] with reference id: [pages-app] from module [pages-app] at [pages-app]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/admincentral/searchResultSuppliers/apps.yaml]: [searchResultSupplier] definition [apps] with reference id: [apps] from module [admincentral] at [apps]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/dam-app/searchResultSuppliers/assets.yaml]: [searchResultSupplier] definition [assets] with reference id: [assets] from module [dam-app] at [assets]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/dam-app-core/searchResultSuppliers/dam.yaml]: [searchResultSupplier] definition [dam] with reference id: [dam] from module [dam-app-core] at [dam]
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:26 -- Setting up YamlConfigurationSource to load OperationDefinition definitions from resources
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/admincentral/operations/appNavigation.yaml]: [operation] definition [appNavigation] with reference id: [appNavigation] from module [admincentral] at [appNavigation]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/admincentral/operations/contentNavigation.yaml]: [operation] definition [contentNavigation] with reference id: [contentNavigation] from module [admincentral] at [contentNavigation]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/admincentral/operations/externalNavigation.yaml]: [operation] definition [externalNavigation] with reference id: [externalNavigation] from module [admincentral] at [externalNavigation]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/admincentral/operations/internalNavigation.yaml]: [operation] definition [internalNavigation] with reference id: [internalNavigation] from module [admincentral] at [internalNavigation]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/admincentral/operations/nodeNavigation.yaml]: [operation] definition [nodeNavigation] with reference id: [nodeNavigation] from module [admincentral] at [nodeNavigation]
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:26 -- Setting up YamlConfigurationSource to load QuerySnifferDefinition definitions from resources
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/admincentral/querySniffers/findContent.yaml]: [querySniffer] definition [findContent] with reference id: [findContent] from module [admincentral] at [findContent]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/admincentral/querySniffers/findNode.yaml]: [querySniffer] definition [findNode] with reference id: [findNode] from module [admincentral] at [findNode]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/admincentral/querySniffers/openApp.yaml]: [querySniffer] definition [openApp] with reference id: [openApp] from module [admincentral] at [openApp]
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:26 -- Starting module rendering
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:26 -- Setting up YamlConfigurationSource to load Renderer definitions from resources
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:26 -- Registered definition from YAML file [/spa-rendering/renderers/spa.yaml]: [renderer] definition [spa] with reference id: [spa] from module [spa-rendering] at [spa]
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:26 -- Setting up YamlConfigurationSource to load TemplateDefinition definitions from resources
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/vue-minimal-lm/templates/pages/basic.yaml]: [template] definition [basic] with reference id: [vue-minimal-lm:pages/basic] from module [vue-minimal-lm] at [pages/basic]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/vue-minimal-lm/templates/pages/contact.yaml]: [template] definition [contact] with reference id: [vue-minimal-lm:pages/contact] from module [vue-minimal-lm] at [pages/contact]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/react-minimal-lm/templates/pages/basic.yaml]: [template] definition [basic] with reference id: [react-minimal-lm:pages/basic] from module [react-minimal-lm] at [pages/basic]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/react-minimal-lm/templates/pages/contact.yaml]: [template] definition [contact] with reference id: [react-minimal-lm:pages/contact] from module [react-minimal-lm] at [pages/contact]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/angular-minimal-lm/templates/pages/basic.yaml]: [template] definition [basic] with reference id: [angular-minimal-lm:pages/basic] from module [angular-minimal-lm] at [pages/basic]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/angular-minimal-lm/templates/pages/contact.yaml]: [template] definition [contact] with reference id: [angular-minimal-lm:pages/contact] from module [angular-minimal-lm] at [pages/contact]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/web-components-minimal-lm/templates/components/headline.yaml]: [template] definition [headline] with reference id: [web-components-minimal-lm:components/headline] from module [web-components-minimal-lm] at [components/headline]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/web-components-minimal-lm/templates/components/image.yaml]: [template] definition [image] with reference id: [web-components-minimal-lm:components/image] from module [web-components-minimal-lm] at [components/image]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/web-components-minimal-lm/templates/components/list.yaml]: [template] definition [list] with reference id: [web-components-minimal-lm:components/list] from module [web-components-minimal-lm] at [components/list]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/web-components-minimal-lm/templates/components/listItem.yaml]: [template] definition [listItem] with reference id: [web-components-minimal-lm:components/listItem] from module [web-components-minimal-lm] at [components/listItem]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/web-components-minimal-lm/templates/components/paragraph.yaml]: [template] definition [paragraph] with reference id: [web-components-minimal-lm:components/paragraph] from module [web-components-minimal-lm] at [components/paragraph]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/web-components-minimal-lm/templates/pages/basic.yaml]: [template] definition [basic] with reference id: [web-components-minimal-lm:pages/basic] from module [web-components-minimal-lm] at [pages/basic]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/spa-lm/templates/components/expander.yaml]: [template] definition [expander] with reference id: [spa-lm:components/expander] from module [spa-lm] at [components/expander]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/spa-lm/templates/components/headline.yaml]: [template] definition [headline] with reference id: [spa-lm:components/headline] from module [spa-lm] at [components/headline]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/spa-lm/templates/components/image.yaml]: [template] definition [image] with reference id: [spa-lm:components/image] from module [spa-lm] at [components/image]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/spa-lm/templates/components/list.yaml]: [template] definition [list] with reference id: [spa-lm:components/list] from module [spa-lm] at [components/list]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/spa-lm/templates/components/listItem.yaml]: [template] definition [listItem] with reference id: [spa-lm:components/listItem] from module [spa-lm] at [components/listItem]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/spa-lm/templates/components/paragraph.yaml]: [template] definition [paragraph] with reference id: [spa-lm:components/paragraph] from module [spa-lm] at [components/paragraph]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/mtk/templates/components/html.yaml]: [template] definition [html] with reference id: [mtk:components/html] from module [mtk] at [components/html]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/mtk/templates/components/image.yaml]: [template] definition [image] with reference id: [mtk:components/image] from module [mtk] at [components/image]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/mtk/templates/components/link.yaml]: [template] definition [link] with reference id: [mtk:components/link] from module [mtk] at [components/link]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/mtk/templates/components/linkList.yaml]: [template] definition [linkList] with reference id: [mtk:components/linkList] from module [mtk] at [components/linkList]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/mtk/templates/components/pageIntro.yaml]: [template] definition [pageIntro] with reference id: [mtk:components/pageIntro] from module [mtk] at [components/pageIntro]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/mtk/templates/components/teaser.yaml]: [template] definition [teaser] with reference id: [mtk:components/teaser] from module [mtk] at [components/teaser]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/mtk/templates/components/textImage.yaml]: [template] definition [textImage] with reference id: [mtk:components/textImage] from module [mtk] at [components/textImage]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/mtk/templates/components/video.yaml]: [template] definition [video] with reference id: [mtk:components/video] from module [mtk] at [components/video]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/mtk/templates/pages/basic.yaml]: [template] definition [basic] with reference id: [mtk:pages/basic] from module [mtk] at [pages/basic]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/mtk/templates/pages/redirect.yaml]: [template] definition [redirect] with reference id: [mtk:pages/redirect] from module [mtk] at [pages/redirect]
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:27 -- Starting module ui-framework-core
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:27 -- Starting module virtual-uri
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:27 -- Setting up YamlConfigurationSource to load VirtualUriMapping definitions from resources
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:27 -- Starting module imaging
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:27 -- Starting module ui-framework
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:27 -- Setting up YamlConfigurationSource to load FieldTypeDefinition definitions from resources
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/basicUpload.yaml]: [fieldType] definition [basicUpload] with reference id: [basicUpload] from module [ui-framework] at [basicUpload]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/checkbox.yaml]: [fieldType] definition [checkbox] with reference id: [checkbox] from module [ui-framework] at [checkbox]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/code.yaml]: [fieldType] definition [code] with reference id: [code] from module [ui-framework] at [code]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/composite.yaml]: [fieldType] definition [composite] with reference id: [composite] from module [ui-framework] at [composite]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/date.yaml]: [fieldType] definition [date] with reference id: [date] from module [ui-framework] at [date]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/hidden.yaml]: [fieldType] definition [hidden] with reference id: [hidden] from module [ui-framework] at [hidden]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/link.yaml]: [fieldType] definition [link] with reference id: [link] from module [ui-framework] at [link]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/linkFieldSelection.yaml]: [fieldType] definition [linkFieldSelection] with reference id: [linkFieldSelection] from module [ui-framework] at [linkFieldSelection]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/multiValue.yaml]: [fieldType] definition [multiValue] with reference id: [multiValue] from module [ui-framework] at [multiValue]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/nodeTypeSelect.yaml]: [fieldType] definition [nodeTypeSelect] with reference id: [nodeTypeSelect] from module [ui-framework] at [nodeTypeSelect]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/optionGroup.yaml]: [fieldType] definition [optionGroup] with reference id: [optionGroup] from module [ui-framework] at [optionGroup]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/password.yaml]: [fieldType] definition [password] with reference id: [password] from module [ui-framework] at [password]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/richText.yaml]: [fieldType] definition [richText] with reference id: [richText] from module [ui-framework] at [richText]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/select.yaml]: [fieldType] definition [select] with reference id: [select] from module [ui-framework] at [select]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/static.yaml]: [fieldType] definition [static] with reference id: [static] from module [ui-framework] at [static]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/switchable.yaml]: [fieldType] definition [switchable] with reference id: [switchable] from module [ui-framework] at [switchable]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/text.yaml]: [fieldType] definition [text] with reference id: [text] from module [ui-framework] at [text]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/twinColSelect.yaml]: [fieldType] definition [twinColSelect] with reference id: [twinColSelect] from module [ui-framework] at [twinColSelect]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-framework/fieldTypes/workbench.yaml]: [fieldType] definition [workbench] with reference id: [workbench] from module [ui-framework] at [workbench]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/ui-admincentral/fieldTypes/timeZone.yaml]: [fieldType] definition [timeZone] with reference id: [timeZone] from module [ui-admincentral] at [timeZone]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/dam-app/fieldTypes/damUpload.yaml]: [fieldType] definition [damUpload] with reference id: [damUpload] from module [dam-app] at [damUpload]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:27 -- Registered definition from YAML file [/dam-app/fieldTypes/damWorkbench.yaml]: [fieldType] definition [damWorkbench] with reference id: [damWorkbench] from module [dam-app] at [damWorkbench]
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:27 -- File based definition decorator resolved from [/dam-app/decorations/ui-framework/fieldTypes/richText.yaml] and will be added to [fieldTypes] registry
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:28 -- Setting up YamlConfigurationSource to load DialogDefinition definitions from resources
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/spa-lm/dialogs/components/headline.yaml]: [dialog] definition [headline] with reference id: [spa-lm:components/headline] from module [spa-lm] at [components/headline]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/spa-lm/dialogs/components/image.yaml]: [dialog] definition [image] with reference id: [spa-lm:components/image] from module [spa-lm] at [components/image]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/spa-lm/dialogs/components/listItem.yaml]: [dialog] definition [listItem] with reference id: [spa-lm:components/listItem] from module [spa-lm] at [components/listItem]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/spa-lm/dialogs/components/paragraph.yaml]: [dialog] definition [paragraph] with reference id: [spa-lm:components/paragraph] from module [spa-lm] at [components/paragraph]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/spa-lm/dialogs/pages/basic.yaml]: [dialog] definition [basic] with reference id: [spa-lm:pages/basic] from module [spa-lm] at [pages/basic]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/ui-framework-jcr/dialogs/chooser.yaml]: [dialog] definition [chooser] with reference id: [ui-framework-jcr:chooser] from module [ui-framework-jcr] at [chooser]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/ui-framework-jcr/dialogs/import.yaml]: [dialog] definition [import] with reference id: [ui-framework-jcr:import] from module [ui-framework-jcr] at [import]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/ui-framework-jcr/dialogs/move.yaml]: [dialog] definition [move] with reference id: [ui-framework-jcr:move] from module [ui-framework-jcr] at [move]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/ui-framework-jcr/dialogs/rename.yaml]: [dialog] definition [rename] with reference id: [ui-framework-jcr:rename] from module [ui-framework-jcr] at [rename]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/ui-framework-jcr/dialogs/restoreVersion.yaml]: [dialog] definition [restoreVersion] with reference id: [ui-framework-jcr:restoreVersion] from module [ui-framework-jcr] at [restoreVersion]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/ui-framework-jcr/dialogs/versions.yaml]: [dialog] definition [versions] with reference id: [ui-framework-jcr:versions] from module [ui-framework-jcr] at [versions]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/jcr-browser/dialogs/addNode.yaml]: [dialog] definition [addNode] with reference id: [jcr-browser:addNode] from module [jcr-browser] at [addNode]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/jcr-browser/dialogs/editProperty.yaml]: [dialog] definition [editProperty] with reference id: [jcr-browser:editProperty] from module [jcr-browser] at [editProperty]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/jcr-browser/dialogs/rename.yaml]: [dialog] definition [rename] with reference id: [jcr-browser:rename] from module [jcr-browser] at [rename]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/pages-app/dialogs/changePageTemplate.yaml]: [dialog] definition [changePageTemplate] with reference id: [pages-app:changePageTemplate] from module [pages-app] at [changePageTemplate]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/pages-app/dialogs/componentTemplate.yaml]: [dialog] definition [componentTemplate] with reference id: [pages-app:componentTemplate] from module [pages-app] at [componentTemplate]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/pages-app/dialogs/createPage.yaml]: [dialog] definition [createPage] with reference id: [pages-app:createPage] from module [pages-app] at [createPage]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/pages-app/dialogs/newComponent.yaml]: [dialog] definition [newComponent] with reference id: [pages-app:newComponent] from module [pages-app] at [newComponent]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/pages-app/dialogs/renamePage.yaml]: [dialog] definition [renamePage] with reference id: [pages-app:renamePage] from module [pages-app] at [renamePage]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/pages-app/dialogs/versions.yaml]: [dialog] definition [versions] with reference id: [pages-app:versions] from module [pages-app] at [versions]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:28 -- Registered definition from YAML file [/resources-app/dialogs/addFile.yaml]: [dialog] definition [addFile] with reference id: [resources-app:addFile] from module [resources-app] at [addFile]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/resources-app/dialogs/addFolder.yaml]: [dialog] definition [addFolder] with reference id: [resources-app:addFolder] from module [resources-app] at [addFolder]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/resources-app/dialogs/upload.yaml]: [dialog] definition [upload] with reference id: [resources-app:upload] from module [resources-app] at [upload]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/resources-app/dialogs/versions.yaml]: [dialog] definition [versions] with reference id: [resources-app:versions] from module [resources-app] at [versions]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/admincentral/dialogs/userMenu.yaml]: [dialog] definition [userMenu] with reference id: [admincentral:userMenu] from module [admincentral] at [userMenu]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/dam-app-core/dialogs/chooser.yaml]: [dialog] definition [chooser] with reference id: [dam-app-core:chooser] from module [dam-app-core] at [chooser]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/mte/dialogs/pages/pageProperties.yaml]: [dialog] definition [pageProperties] with reference id: [mte:pages/pageProperties] from module [mte] at [pages/pageProperties]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/dam-app-jcr/dialogs/rename.yaml]: [dialog] definition [rename] with reference id: [dam-app-jcr:rename] from module [dam-app-jcr] at [rename]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/dam-app-jcr/dialogs/upload.yaml]: [dialog] definition [upload] with reference id: [dam-app-jcr:upload] from module [dam-app-jcr] at [upload]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/dam-app-jcr/dialogs/versions.yaml]: [dialog] definition [versions] with reference id: [dam-app-jcr:versions] from module [dam-app-jcr] at [versions]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/mtk/dialogs/components/html.yaml]: [dialog] definition [html] with reference id: [mtk:components/html] from module [mtk] at [components/html]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/mtk/dialogs/components/image.yaml]: [dialog] definition [image] with reference id: [mtk:components/image] from module [mtk] at [components/image]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/mtk/dialogs/components/link.yaml]: [dialog] definition [link] with reference id: [mtk:components/link] from module [mtk] at [components/link]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/mtk/dialogs/components/linkList.yaml]: [dialog] definition [linkList] with reference id: [mtk:components/linkList] from module [mtk] at [components/linkList]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/mtk/dialogs/components/teaser.yaml]: [dialog] definition [teaser] with reference id: [mtk:components/teaser] from module [mtk] at [components/teaser]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/mtk/dialogs/components/textImage.yaml]: [dialog] definition [textImage] with reference id: [mtk:components/textImage] from module [mtk] at [components/textImage]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/mtk/dialogs/components/video.yaml]: [dialog] definition [video] with reference id: [mtk:components/video] from module [mtk] at [components/video]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/mtk/dialogs/pages/basic.yaml]: [dialog] definition [basic] with reference id: [mtk:pages/basic] from module [mtk] at [pages/basic]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:29 -- Registered definition from YAML file [/mtk/dialogs/pages/redirect.yaml]: [dialog] definition [redirect] with reference id: [mtk:pages/redirect] from module [mtk] at [pages/redirect]
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:30 -- Setting up YamlConfigurationSource to load AppDescriptor definitions from resources
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:31 -- Registered definition from YAML file [/tasks-app/apps/tasks-app.yaml]: [app] definition [tasks-app] with reference id: [tasks-app] from module [tasks-app] at [tasks-app]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:31 -- Registered definition from YAML file [/definitions-app/apps/definitions-app.yaml]: [app] definition [definitions-app] with reference id: [definitions-app] from module [definitions-app] at [definitions-app]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:31 -- Registered definition from YAML file [/jcr-browser/apps/jcr-browser-app.yaml]: [app] definition [jcr-browser-app] with reference id: [jcr-browser-app] from module [jcr-browser] at [jcr-browser-app]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:32 -- Registered definition from YAML file [/pages-app/apps/pages-app.yaml]: [app] definition [pages-app] with reference id: [pages-app] from module [pages-app] at [pages-app]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:32 -- Registered definition from YAML file [/password-manager/apps/password-manager.yaml]: [app] definition [password-manager] with reference id: [password-manager] from module [password-manager] at [password-manager]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:32 -- Registered definition from YAML file [/publishing-app/apps/publishing.yaml]: [app] definition [publishing] with reference id: [publishing] from module [publishing-app] at [publishing]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:32 -- Registered definition from YAML file [/resources-app/apps/resources.yaml]: [app] definition [resources] with reference id: [resources] from module [resources-app] at [resources]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:32 -- Registered definition from YAML file [/admincentral/apps/notifications.yaml]: [app] definition [notifications] with reference id: [notifications] from module [admincentral] at [notifications]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:32 -- Registered definition from YAML file [/dam-app-core/apps/dam-chooser.yaml]: [app] definition [dam-chooser] with reference id: [dam-chooser] from module [dam-app-core] at [dam-chooser][app] definition [dam-chooser] with reference id: [dam-chooser] from module [dam-app-core] at [dam-chooser] which is deprecated [Since=3.0.3,Description=Use $type: damlinkField instead of referencing this app.]
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:32 -- Registered definition from YAML file [/dam-app-core/apps/dam.yaml]: [app] definition [dam] with reference id: [dam] from module [dam-app-core] at [dam]
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:32 -- File based definition decorator resolved from [/dam-app-jcr/decorations/dam-assets-app/apps/dam.subApps.yaml] and will be added to [apps] registry
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:32 -- Starting module scheduler
+INFO  info.magnolia.module.scheduler.SchedulerModule 24.12.2020 11:08:32 -- Job cleanTempFiles added [0 0 0/12 1/1 * ? *]. Will fire for the first time on Thu Dec 24 at 12:00:00 ICT 2020
+INFO  info.magnolia.module.scheduler.SchedulerModule 24.12.2020 11:08:32 -- Job configScan added [0 0 0 * * ?]. Will fire for the first time on Fri Dec 25 at 00:00:00 ICT 2020
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:32 -- Starting module site
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:32 -- Setting up YamlConfigurationSource to load Theme definitions from resources
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:32 -- Registered definition from YAML file [/spa-lm/themes/travel-demo-theme.yaml]: [theme] definition [travel-demo-theme] with reference id: [travel-demo-theme] from module [spa-lm] at [travel-demo-theme]
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:32 -- Starting module ui-admincentral
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:33 -- Setting up YamlConfigurationSource to load ItemViewDefinition definitions from resources
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:08:33 -- Registered definition from YAML file [/admincentral/messageViews/default.yaml]: [messageView] definition [default] with reference id: [admincentral:default] from module [admincentral] at [default]
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:34 -- Starting module ui-mediaeditor
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:34 -- Setting up YamlConfigurationSource to load MediaEditorDefinition definitions from resources
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:34 -- File based definition decorator resolved from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actionbar.sections.operations.yaml] and will be added to [mediaEditors] registry
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:34 -- File based definition decorator resolved from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actions.redo.yaml] and will be added to [mediaEditors] registry
+INFO  info.magnolia.config.source.yaml.decoration.YamlDefinitionDecorator 24.12.2020 11:08:34 -- Applied YAML file based decorator from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actionbar.sections.operations.yaml] to definition provider [[mediaEditor] definition [image] with reference id: [ui-mediaeditor:image] from module [ui-mediaeditor] at [image]]
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:34 -- File based definition decorator resolved from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actions.undo.yaml] and will be added to [mediaEditors] registry
+INFO  info.magnolia.config.source.yaml.decoration.YamlDefinitionDecorator 24.12.2020 11:08:34 -- Applied YAML file based decorator from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actions.redo.yaml] to definition provider [[mediaEditor] definition [image] with reference id: [ui-mediaeditor:image] from module [ui-mediaeditor] at [image]]
+INFO  info.magnolia.config.source.yaml.decoration.YamlDefinitionDecorator 24.12.2020 11:08:34 -- Applied YAML file based decorator from [/ui-mediaeditor/decorations/ui-mediaeditor/mediaEditors/image.actionbar.sections.operations.yaml] to definition provider [[mediaEditor] definition [image] with reference id: [ui-mediaeditor:image] from module [ui-mediaeditor] at [image]]
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:34 -- Starting module magnolia-usage-metrics
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:34 -- Starting module password-manager
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:34 -- Starting module task-management
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:34 -- Starting module content-importer
+INFO  info.magnolia.content.observer.ContentImporterModule 24.12.2020 11:08:34 -- Content bootstrap directory is not defined with property of 'magnolia.content.bootstrap.dir' in magnolia.properties file, therefore observation is not started.
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:34 -- Starting module mail
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:34 -- Starting module rest-client
+INFO  info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 24.12.2020 11:08:34 -- Setting up YamlConfigurationSource to load RestClientDefinition definitions from resources
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:34 -- Starting module javascript-models
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:35 -- Starting module rssaggregator
+INFO  info.magnolia.module.ModuleManagerImpl 24.12.2020 11:08:35 -- Starting module categorization
+WARN  info.magnolia.cms.util.WorkspaceObservingManager 24.12.2020 11:08:35 -- A deprecated class or method was used: Use reload() instead. Check the following trace: info.magnolia.commands.CommandsManager.reload(CommandsManager.java:269), info.magnolia.cms.util.WorkspaceObservingManager.start(WorkspaceObservingManager.java:91), the full stacktrace will be logged in debug mode in the info.magnolia.cms.util.DeprecationUtil category.
+WARN  info.magnolia.cms.util.DeprecationUtil 24.12.2020 11:08:35 -- A deprecated class or method was used: Use reload() instead. Check the following trace: info.magnolia.commands.CommandsManager.reload(CommandsManager.java:269), info.magnolia.cms.util.WorkspaceObservingManager.start(WorkspaceObservingManager.java:91), the full stacktrace will be logged in debug mode in the info.magnolia.cms.util.DeprecationUtil category.
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Catalog [default] registered: [info.magnolia.commands.MgnlCatalog: unpublish, publish, activate, deactivate]
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Catalog [versioned] registered: [info.magnolia.commands.MgnlCatalog: unpublish, publish, activate, deactivate]
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Catalog [cache] registered: [info.magnolia.commands.MgnlCatalog: flushNamedCache, flushByUUID, flushAll]
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Catalog [resources] registered: [info.magnolia.commands.MgnlCatalog: versionResources]
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Adding new command [importZip] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Adding new command [cleanTempFiles] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Adding new command [exportYaml] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Adding new command [import] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Adding new command [markAsDeleted] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Adding new command [restorePreviousVersion] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Adding new command [export] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Adding new command [delete] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Adding new command [configScan] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Catalog [dam] registered: [info.magnolia.commands.MgnlCatalog: markAssetFolderAsDeleted, importAssetZip]
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Adding new command [sendMail] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Catalog [planet] registered: [info.magnolia.commands.MgnlCatalog: collectPlanetStatistics, generatePlanetData]
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Catalog [rss] registered: [info.magnolia.commands.MgnlCatalog: importRss]
+INFO  info.magnolia.commands.CommandsManager 24.12.2020 11:08:35 -- Catalog [categorization] registered: [info.magnolia.commands.MgnlCatalog: generateCategories, removeCategories]
+DEBUG class org.ehcache.core.Ehcache-defaultPageCache 24.12.2020 11:08:35 -- Initialize successful.
+DEBUG class org.ehcache.core.Ehcache-uuid-key-mapping 24.12.2020 11:08:35 -- Initialize successful.
+INFO  info.magnolia.cms.i18n.DefaultMessagesManager 24.12.2020 11:08:36 -- Loading i18n configuration - /server/i18n/system
+INFO  info.magnolia.cms.i18n.DefaultMessagesManager 24.12.2020 11:08:36 -- Registering event listener for i18n
+INFO  info.magnolia.cms.beans.config.MIMEMapping 24.12.2020 11:08:36 -- Initializing MIMEMapping from /server/MIMEMapping
+INFO  info.magnolia.cms.beans.config.MIMEMapping 24.12.2020 11:08:36 -- Registering event listener for MIMEMapping
+INFO  info.magnolia.cms.beans.config.ConfigLoader 24.12.2020 11:08:36 -- Configuration loaded (took 62 seconds)
+INFO  info.magnolia.cms.filters.FilterManagerImpl 24.12.2020 11:08:36 -- Initializing filters
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [context]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [contentType]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [multipartRequest]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [unicodeNormalization]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [csrfTokenSecurity]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [login]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [publishing]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [gzip]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [channel]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [siteMerge]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [logout]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [securityCallback]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [csrfSecurity]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [uriSecurity]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [range]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [i18n]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [cache]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [cors]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [virtualURI]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [servlets]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [Wrapper for DamDownloadServlet servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:36 -- Initializing filter [Wrapper for RestDispatcherServlet servlet]
+INFO  info.magnolia.rest.RestDispatcherServlet 24.12.2020 11:08:37 -- Endpoint delivery/pagenav_v1 is registered with base path: [context]/delivery/pagenav/v1
+INFO  info.magnolia.rest.RestDispatcherServlet 24.12.2020 11:08:37 -- Endpoint preview/pagenav_v1 is registered with base path: [context]/preview/pagenav/v1
+INFO  info.magnolia.rest.RestDispatcherServlet 24.12.2020 11:08:37 -- Endpoint delivery/pages_v1 is registered with base path: [context]/delivery/pages/v1
+INFO  info.magnolia.rest.RestDispatcherServlet 24.12.2020 11:08:37 -- Endpoint preview/pages_v1 is registered with base path: [context]/preview/pages/v1
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:37 -- Initializing filter [Wrapper for ImagingServlet servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:37 -- Initializing filter [Wrapper for ResourcesServlet servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:37 -- Initializing filter [Wrapper for Admincentral-m5 servlet]
+INFO  info.magnolia.config.source.yaml.decoration.YamlDefinitionDecorator 24.12.2020 11:08:37 -- Applied YAML file based decorator from [/dam-app-jcr/decorations/dam-assets-app/apps/dam.subApps.yaml] to definition provider [[app] definition [dam] with reference id: [dam] from module [dam-app-core] at [dam]]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:38 -- Initializing filter [Wrapper for Admincentral servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:38 -- Initializing filter [Wrapper for VaadinStatic servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:38 -- Initializing filter [Wrapper for FeedSyndicationServlet servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:38 -- Initializing filter [cms]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:38 -- Initializing filter [repositoryMapping]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:38 -- Initializing filter [contentSecurity]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:38 -- Initializing filter [aggregator]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:38 -- Initializing filter [modelExecution]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:38 -- Initializing filter [rendering]
+INFO  info.magnolia.cms.filters.CompositeFilter 24.12.2020 11:08:38 -- Initializing filter [addCORSHeaders]

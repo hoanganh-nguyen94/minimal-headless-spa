@@ -1,0 +1,24 @@
+INFO  24.12.2020 11:08:21  Trying to initialize repositories from: 
+    /Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/WEB-INF/bootstrap/author
+    /Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/WEB-INF/bootstrap/common
+INFO  24.12.2020 11:08:21  Trying to import content from 47 files into repository [dam]
+INFO  24.12.2020 11:08:23  Repository [dam] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [keystore] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [usergroups] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [magnolia-mgnlSystem] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [scripts] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [website] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [magnolia-mgnlVersion] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [userroles] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [profiles] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [users] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [tasks] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [imaging] has been initialized.
+INFO  24.12.2020 11:08:23  Trying to import content from 1 files into repository [category]
+INFO  24.12.2020 11:08:23  Repository [category] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [rss] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [default] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [resources] has been initialized.
+INFO  24.12.2020 11:08:23  Repository [messages] has been initialized.
+INFO  24.12.2020 11:08:23  Trying to import content from 3 files into repository [config]
+INFO  24.12.2020 11:08:23  Repository [config] has been initialized.
