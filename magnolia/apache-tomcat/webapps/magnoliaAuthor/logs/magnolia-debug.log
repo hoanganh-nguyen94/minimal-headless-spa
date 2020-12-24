@@ -2656,3 +2656,41 @@ INFO  info.magnolia.dirwatch.DirectoryWatcher 24.12.2020 11:30:34 -- Directory m
 INFO  info.magnolia.dirwatch.DirectoryWatcher 24.12.2020 11:30:36 -- File resource modified at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/spa-lm/apps/tours.yaml]
 INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:30:36 -- Registered definition from YAML file [/spa-lm/apps/tours.yaml]: [app] definition [tours] with reference id: [tours] from module [spa-lm] at [tours]
 WARN  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:30:36 -- 0 major and 2 minor problems have been encountered
+INFO  info.magnolia.dirwatch.DirectoryWatcher 24.12.2020 11:32:32 -- Directory modified at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/spa-lm/restEndpoints/delivery]
+INFO  info.magnolia.dirwatch.DirectoryWatcher 24.12.2020 11:32:32 -- File resource added at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/spa-lm/restEndpoints/delivery/tours.yaml]
+ERROR info.magnolia.rest.registry.EndpointDefinitionRegistry 24.12.2020 11:32:32 -- Error happens when checking endpoint duplications.
+java.lang.NullPointerException: null
+	at info.magnolia.rest.registry.EndpointDefinitionRegistry.lambda$onRegister$1(EndpointDefinitionRegistry.java:129) ~[magnolia-rest-integration-2.2.5.jar:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174) ~[?:1.8.0_275]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[?:1.8.0_275]
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1361) ~[?:1.8.0_275]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) ~[?:1.8.0_275]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499) ~[?:1.8.0_275]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486) ~[?:1.8.0_275]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_275]
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152) ~[?:1.8.0_275]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_275]
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531) ~[?:1.8.0_275]
+	at info.magnolia.rest.registry.EndpointDefinitionRegistry.onRegister(EndpointDefinitionRegistry.java:131) ~[magnolia-rest-integration-2.2.5.jar:?]
+	at info.magnolia.rest.registry.EndpointDefinitionRegistry.register(EndpointDefinitionRegistry.java:113) ~[magnolia-rest-integration-2.2.5.jar:?]
+	at info.magnolia.config.source.yaml.YamlConfigurationSource.loadAndRegister(YamlConfigurationSource.java:142) ~[magnolia-configuration-6.2.5.jar:?]
+	at info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource.lambda$start$2(AbstractFileResourceConfigurationSource.java:162) ~[magnolia-configuration-6.2.5.jar:?]
+	at info.magnolia.resourceloader.layered.LayeredResourceOrigin$RelayingChangeHandler.onResourceChanged(LayeredResourceOrigin.java:290) [magnolia-resource-loader-6.2.5.jar:?]
+	at info.magnolia.resourceloader.AbstractResourceOrigin.dispatchResourceChange(AbstractResourceOrigin.java:132) [magnolia-resource-loader-6.2.5.jar:?]
+	at info.magnolia.resourceloader.file.FileWatcherCallback.dispatchResourceChange(FileWatcherCallback.java:118) [magnolia-resource-loader-6.2.5.jar:?]
+	at info.magnolia.resourceloader.file.FileWatcherCallback.added(FileWatcherCallback.java:78) [magnolia-resource-loader-6.2.5.jar:?]
+	at info.magnolia.dirwatch.DirectoryWatcher.processEvent(DirectoryWatcher.java:299) [magnolia-resource-loader-6.2.5.jar:?]
+	at info.magnolia.dirwatch.DirectoryWatcher.run(DirectoryWatcher.java:247) [magnolia-resource-loader-6.2.5.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_275]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_275]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_275]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_275]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+WARN  info.magnolia.rest.RestDispatcherServlet 24.12.2020 11:32:32 -- Endpoint delivery/tours is missing implementationClass, skipping registration
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:32:32 -- Registered definition from YAML file [/spa-lm/restEndpoints/delivery/tours.yaml]: [restEndpoint] definition [tours] with reference id: [delivery/tours] from module [spa-lm] at [delivery/tours]
+WARN  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:32:32 -- 0 major and 2 minor problems have been encountered
+INFO  info.magnolia.dirwatch.DirectoryWatcher 24.12.2020 11:32:42 -- Directory modified at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/spa-lm/restEndpoints/delivery]
+INFO  info.magnolia.dirwatch.DirectoryWatcher 24.12.2020 11:32:44 -- File resource modified at [/Users/hcg/IntelliJIDEAProjects/minimal-headless-spa/magnolia/apache-tomcat/webapps/magnoliaAuthor/../../../light-modules/spa-lm/restEndpoints/delivery/tours.yaml]
+INFO  info.magnolia.rest.RestDispatcherServlet 24.12.2020 11:32:44 -- Endpoint delivery/tours is registered with base path: [context]/delivery/tours
+INFO  info.magnolia.rest.RestDispatcherServlet 24.12.2020 11:32:44 -- Endpoint preview/tours is registered with base path: [context]/preview/tours
+INFO  info.magnolia.config.source.yaml.YamlConfigurationSource 24.12.2020 11:32:44 -- Registered definition from YAML file [/spa-lm/restEndpoints/delivery/tours.yaml]: [restEndpoint] definition [tours] with reference id: [delivery/tours] from module [spa-lm] at [delivery/tours]
